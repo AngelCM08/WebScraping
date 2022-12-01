@@ -9,8 +9,5 @@
         <module name="Gecko" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Gecko" target="16" />
-    </bytecodeTargetLevel>
   </component>
 </project>
