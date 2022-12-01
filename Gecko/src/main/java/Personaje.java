@@ -21,10 +21,11 @@ public class Personaje {
         List<String> aux = new ArrayList<>();
         atributos.forEach(text -> aux.add(text.getText().split("\n")[0]));
 
+
         this.id = id;
-        icono = aux.get(0); //HAY QUE MIRAR PARA METER LA URL
+        icono = atributos.get(0).findElement(By.tagName("img")).getAttribute("src");
         nombre = aux.get(1);
-        vida = 2; //HAY QUE SUMAR CUANTAS IMAGENES DE CORAZONES HAY
+        vida = atributos.get(2).findElements(By.tagName("img")).size();
         daño = aux.get(3);
         cadencia = aux.get(4);
         vel_proyectil = aux.get(5);

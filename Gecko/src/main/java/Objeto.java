@@ -1,3 +1,4 @@
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import java.util.ArrayList;
@@ -12,7 +13,7 @@ public class Objeto {
 
     public Objeto(int id,List<WebElement> atributos) {
         this.id = id;
-        icono = atributos.get(1).getText();
+        icono = atributos.get(1).findElement(By.tagName("img")).getAttribute("src");
         nombre = atributos.get(2).getText();
         descripcion = atributos.get(3).getText();
     }

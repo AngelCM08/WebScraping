@@ -48,8 +48,8 @@ public class Main {
         //driver.quit();
 
         //Insertar i mostrar personajes
-        personajes.getPersonajes(driver, wait, goodLinks);
-        personajes.lista.forEach(System.out::println);
+        //personajes.getPersonajes(driver, wait, goodLinks);
+        //personajes.lista.forEach(System.out::println);
 
         //Insertar i mostrar objetos
         objetos.getObjetos(driver, wait, goodLinks);
