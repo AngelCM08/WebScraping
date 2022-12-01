@@ -1,4 +1,5 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -20,6 +21,9 @@ public class Objetos {
             if (l.contains("Objetos")) {
                 driver.navigate().to(l);
                 wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.className("wikitable"))));
+                for(int i=0, j=0; i<77500; j=i, i+=10){
+                    ((JavascriptExecutor) driver).executeScript("window.scrollTo("+j+", "+i+")");
+                }
                 List<WebElement> tablas = driver.findElements(By.className("wikitable"));
                 tablas.forEach(tabla -> {
                     tabla.findElements(By.tagName("tbody")).forEach(section ->
