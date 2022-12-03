@@ -1,9 +1,9 @@
-public class Campeon extends Monstruo{
+/*public class Campeon extends Monstruo{
     private String color;
     private Objeto recompensa;
 
-    public Campeon(String icono, String nombre, int vida, String descripcion, String color, Objeto recompensa) {
-        super(icono, nombre, vida, descripcion);
+    public Campeon(int id, String icono, String nombre, int vida, String descripcion, String color, Objeto recompensa) {
+        super(id, icono, nombre, vida, descripcion);
         this.color = color;
         this.recompensa = recompensa;
     }
@@ -31,4 +31,4 @@ public class Campeon extends Monstruo{
                 ", recompensa=" + recompensa +
                 '}';
     }
-}
+}*/

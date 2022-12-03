@@ -1,11 +1,18 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
+
 public class Jefe extends Enemigo{
     private String ataques;
-    private String habilidades;
 
-    public Jefe(String icono, String nombre, int vida, String descripcion, String ataques, String habilidades) {
-        super(icono, nombre, vida, descripcion);
+    public Jefe(int id, List<WebElement> atributos) {
+        super(id,
+                atributos.get(0).getAttribute("src"), //icono
+                atributos.get(1).getText(),  //nombre
+                Integer.parseInt(atributos.get(2).getText()),  //vida
+                atributos.get(3).getText()); //descripción
         this.ataques = ataques;
-        this.habilidades = habilidades;
     }
 
     public String getAtaques() {
@@ -16,14 +23,6 @@ public class Jefe extends Enemigo{
         this.ataques = ataques;
     }
 
-    public String getHabilidades() {
-        return habilidades;
-    }
-
-    public void setHabilidades(String habilidades) {
-        this.habilidades = habilidades;
-    }
-
     @Override
     public String toString() {
         return "Jefe{" +
@@ -32,7 +31,6 @@ public class Jefe extends Enemigo{
                 ", vida=" + super.getVida() +
                 ", descripcion='" + super.getDescripcion() + '\'' +
                 ", ataques='" + ataques + '\'' +
-                ", habilidades='" + habilidades + '\'' +
                 '}';
     }
 }

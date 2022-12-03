@@ -52,9 +52,14 @@ public class Main {
         //personajes.lista.forEach(System.out::println);
 
         //Insertar i mostrar objetos
-        objetos.getObjetos(driver, wait, goodLinks);
-        objetos.lista.forEach(System.out::println);
+        //objetos.getObjetos(driver, wait, goodLinks);
+        //objetos.lista.forEach(System.out::println);
 
+        //Insertar i mostrar Enemigos (Monstruos i Jefes)
+        Enemigo.getMonstruos(driver, wait, goodLinks);
+        //Enemigo.getJefes(driver, wait, goodLinks);
+        Enemigo.monstruos.forEach(System.out::println);
+        //Enemigo.jefes.forEach(System.out::println);
 
       //Cerrar el navegador
       driver.quit();
