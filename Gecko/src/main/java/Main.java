@@ -56,10 +56,11 @@ public class Main {
         //objetos.lista.forEach(System.out::println);
 
         //Insertar i mostrar Enemigos (Monstruos i Jefes)
-        Enemigo.getMonstruos(driver, wait, goodLinks);
-        //Enemigo.getJefes(driver, wait, goodLinks);
-        Enemigo.monstruos.forEach(System.out::println);
-        //Enemigo.jefes.forEach(System.out::println);
+        //Enemigo.getMonstruos(driver, wait, goodLinks);
+        Enemigo.getJefes(driver, wait, goodLinks);
+
+        //Enemigo.monstruos.forEach(System.out::println);
+        Enemigo.jefes.forEach(System.out::println);
 
       //Cerrar el navegador
       driver.quit();

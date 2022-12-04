@@ -10,10 +10,15 @@ public class Jefe extends Enemigo{
         super(id,
                 atributos.get(0).getAttribute("src"), //icono
                 atributos.get(1).getText(),  //nombre
-                Integer.parseInt(atributos.get(2).getText()),  //vida
-                atributos.get(3).getText()); //descripción
-        this.ataques = ataques;
+                AskValueLife(atributos.get(2)),  //vida
+                null); //descripción : No hay un patrón entre las páginas como para automatizar la recogida de datos...
     }
+
+    private static int AskValueLife(WebElement vida) {
+        if(vida.getText() == null) return 0;
+        else return Integer.parseInt(vida.getText());
+    }
+
 
     public String getAtaques() {
         return ataques;

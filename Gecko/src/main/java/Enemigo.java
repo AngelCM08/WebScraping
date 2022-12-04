@@ -27,7 +27,6 @@ public class Enemigo {
         this.vida = vida;
         this.descripcion = descripcion;
     }
-    //data-tab="flytabs_01"
 
     static public void getMonstruos(WebDriver driver, WebDriverWait wait, List<String> goodLinks){
         List<WebElement> aux = new ArrayList<>();
@@ -83,8 +82,7 @@ public class Enemigo {
                         wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.className("lazyloaded"))));
                         aux.add(driver.findElement(By.className("lazyloaded"))); //icono
                         aux.add(driver.findElement(By.tagName("p"))); //nombre
-                        aux.add(AskLife(driver.findElement(By.className("pi-data-value")))); //vida
-                        aux.add(driver.findElement(By.className("lazyloaded"))); //descripción
+                        aux.add(AskLife(driver.findElement(By.className("mw-parser-output")))); //vida
 
                         jefes.add(new Jefe(id.getAndIncrement(), aux));
                         aux.clear();
@@ -95,7 +93,33 @@ public class Enemigo {
     }
 
     private static WebElement AskLife(WebElement element) {
+        try {
+            return element.findElement(By.cssSelector("div[data-source='vida']")).findElement(By.tagName("div"));
+        }catch (org.openqa.selenium.NoSuchElementException e){
+            return null;
+        }
+    }
 
+    static public void getCampeones(WebDriver driver, WebDriverWait wait, List<String> goodLinks){
+        List<WebElement> aux = new ArrayList<>();
+        AtomicInteger id = new AtomicInteger(1);
+
+        driver.navigate().to("https://bindingofisaac.fandom.com/es/wiki/Campeones");
+        wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.className("wikitable"))));
+        for(int i=0, j=0; i<30000; j=i, i+=30){
+            ((JavascriptExecutor) driver).executeScript("window.scrollTo("+j+", "+i+")");
+        }
+        List<WebElement> tablas = driver.findElements(By.className("wikitable"));
+        tablas.forEach(tabla -> {
+            tabla.findElements(By.tagName("tr")).remove(0);
+            tabla.findElements(By.tagName("tr")).forEach(fila -> {
+                aux.addAll(fila.findElements(By.tagName("td")));
+                if(aux.size() != 0) {
+                    monstruos.add(new Monstruo(id.getAndIncrement(), aux));
+                }
+                aux.clear();
+            });
+        });
     }
 
     //Getters and Setters

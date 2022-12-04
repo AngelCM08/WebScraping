@@ -1,4 +1,4 @@
-/*public class Campeon extends Monstruo{
+public class Campeon extends Enemigo{
     private String color;
     private Objeto recompensa;
 
@@ -31,4 +31,4 @@
                 ", recompensa=" + recompensa +
                 '}';
     }
-}*/
+}
