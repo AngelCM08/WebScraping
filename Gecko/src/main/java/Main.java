@@ -1,16 +1,12 @@
-import com.opencsv.CSVWriter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.io.*;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 public class Main {
 
@@ -47,29 +43,32 @@ public class Main {
                 .filter(s -> s.contains("es/wiki/") && !s.contains("The_Binding"))
                 .distinct()
                 .toList();
-        //goodLinks.forEach(System.out::println);
-        //driver.quit();
 
         //Insertar i mostrar personajes
         personajes.getPersonajes(driver, wait, goodLinks);
-        personajes.lista.forEach(System.out::println);
+        //personajes.lista.forEach(System.out::println);
 
         //Insertar i mostrar objetos
-        //objetos.getObjetos(driver, wait, goodLinks);
+        objetos.getObjetos(driver, wait, goodLinks);
         //objetos.lista.forEach(System.out::println);
 
         //Insertar i mostrar Enemigos (Monstruos i Jefes)
-        //Enemigo.getMonstruos(driver, wait, goodLinks);
+        Enemigo.getMonstruos(driver, wait, goodLinks);
         //Enemigo.getJefes(driver, wait, goodLinks);
 
         //Enemigo.monstruos.forEach(System.out::println);
         //Enemigo.jefes.forEach(System.out::println);
 
-        FormatObjectsToList personajesFormateados = new FormatObjectsToList();
-        personajesFormateados.FormatPersonajeToList(personajes.lista);
-        System.out.println(personajesFormateados.formated_personajes_list.toString());
+        FormatObjectsToList EntidadesFormateadas = new FormatObjectsToList();
+        EntidadesFormateadas.FormatPersonajeToList(personajes.lista);
+        EntidadesFormateadas.FormatObjectToList(objetos.lista);
+        EntidadesFormateadas.FormatMounstruoToList(Enemigo.monstruos);
+
+        WriteToCSV.writeAllLines(EntidadesFormateadas.formated_personajes_list, "src/main/java/Output/Personajes.csv");
+        WriteToCSV.writeAllLines(EntidadesFormateadas.formated_objetos_list, "src/main/java/Output/Objetos.csv");
+        WriteToCSV.writeAllLines(EntidadesFormateadas.formated_monstruos_list, "src/main/java/Output/Montruos.csv");
 
         //Cerrar el navegador
-      driver.quit();
+        driver.quit();
     }
 }

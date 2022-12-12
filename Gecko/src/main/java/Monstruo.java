@@ -34,12 +34,7 @@ public class Monstruo extends Enemigo{
 
     @Override
     public String toString() {
-        return "Personaje{" +
-                "id=" + id +
-                ", icono='" + icono + '\'' +
-                ", nombre='" + nombre + '\'' +
-                ", vida=" + vida +
-                ", descripción=" + vida +
-                '}';
+        return "id-icono-nombre-vida-descripcion---" +
+                id + "--" + icono + "--" + nombre + "--" + vida + "--" + descripcion;
     }
 }
