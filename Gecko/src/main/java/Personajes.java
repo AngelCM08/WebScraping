@@ -22,7 +22,7 @@ public class Personajes {
             if (l.contains("Personajes")) {
                 driver.navigate().to(l);
                 wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.className("wikitable"))));
-                for(int i=0, j=0; i<7500; j=i, i+=60){
+                for(int i=0, j=0; i<7500; j=i, i+=30){
                     ((JavascriptExecutor) driver).executeScript("window.scrollTo("+j+", "+i+")");
                 }
                 List<WebElement> tablas = driver.findElements(By.className("wikitable"));

@@ -66,8 +66,8 @@ public class Main {
         //Enemigo.jefes.forEach(System.out::println);
 
         FormatObjectsToList personajesFormateados = new FormatObjectsToList();
-        personajesFormateados.FormatObjectToList(personajes.lista);
-        System.out.println(personajesFormateados.formated_objects_list.toString());
+        personajesFormateados.FormatPersonajeToList(personajes.lista);
+        System.out.println(personajesFormateados.formated_personajes_list.toString());
 
         //Cerrar el navegador
       driver.quit();
