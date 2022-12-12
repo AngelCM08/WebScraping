@@ -23,7 +23,7 @@ public class Jefe extends Enemigo{
     public String getAtaques() {
         return ataques;
     }
-//HOla
+
     public void setAtaques(String ataques) {
         this.ataques = ataques;
     }

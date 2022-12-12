@@ -110,17 +110,8 @@ public class Personaje {
 
     @Override
     public String toString() {
-        return "Personaje{" +
-                "id=" + id +
-                ", icono='" + icono + '\'' +
-                ", nombre='" + nombre + '\'' +
-                ", vida=" + vida +
-                ", daño='" + daño + '\'' +
-                ", cadencia='" + cadencia + '\'' +
-                ", vel_proyectil='" + vel_proyectil + '\'' +
-                ", rango='" + rango + '\'' +
-                ", velocidad='" + velocidad + '\'' +
-                ", suerte='" + suerte + '\'' +
-                '}';
+        return "id,icono,nombre,vida,daño,cadencia,vel_proyectil,rango,velocidad,suerte-" +
+                id + ',' + icono + ',' + nombre + ',' + vida + ',' + daño + ',' + cadencia +
+                ',' + vel_proyectil + ',' + rango + ',' + velocidad + ',' + suerte ;
     }
 }

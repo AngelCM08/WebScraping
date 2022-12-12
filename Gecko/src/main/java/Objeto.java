@@ -44,11 +44,8 @@ public class Objeto {
 
     @Override
     public String toString() {
-        return "Objeto{" +
-                "id=" + id +
-                ", icono='" + icono + '\'' +
-                ", nombre='" + nombre + '\'' +
-                ", descripcion='" + descripcion + '\'' +
-                '}';
+
+        return "id,icono,nombre,descripcion-" +
+                id + ',' + icono + ',' + nombre + ',' + descripcion;
     }
 }

@@ -1,3 +1,4 @@
+import com.opencsv.CSVWriter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -5,9 +6,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.*;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class Main {
 
@@ -48,8 +51,8 @@ public class Main {
         //driver.quit();
 
         //Insertar i mostrar personajes
-        //personajes.getPersonajes(driver, wait, goodLinks);
-        //personajes.lista.forEach(System.out::println);
+        personajes.getPersonajes(driver, wait, goodLinks);
+        personajes.lista.forEach(System.out::println);
 
         //Insertar i mostrar objetos
         //objetos.getObjetos(driver, wait, goodLinks);
@@ -57,12 +60,16 @@ public class Main {
 
         //Insertar i mostrar Enemigos (Monstruos i Jefes)
         //Enemigo.getMonstruos(driver, wait, goodLinks);
-        Enemigo.getJefes(driver, wait, goodLinks);
+        //Enemigo.getJefes(driver, wait, goodLinks);
 
         //Enemigo.monstruos.forEach(System.out::println);
-        Enemigo.jefes.forEach(System.out::println);
+        //Enemigo.jefes.forEach(System.out::println);
 
-      //Cerrar el navegador
+        FormatObjectsToList personajesFormateados = new FormatObjectsToList();
+        personajesFormateados.FormatObjectToList(personajes.lista);
+        System.out.println(personajesFormateados.formated_objects_list.toString());
+
+        //Cerrar el navegador
       driver.quit();
     }
 }
