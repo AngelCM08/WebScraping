@@ -2,6 +2,14 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
+/**
+ * Clase en fase de desarrollo, se ha intentado el scrapeo
+ * de las entidades de esta clase de forma fallida puesto
+ * que las páginas de la web son variadas dependiendo el
+ * elemento Jefe que se quiera Scrapear.
+ *
+ * @author Ángel Castro Merino
+ */
 public class Jefe extends Enemigos {
     private String ataques;
 

@@ -11,6 +11,16 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ * Clase que almacena la entidad del UML Enemigo.
+ * Agrupa todos los objetos de la clase Monstruo en una
+ * lista(debería recoger también de la clase Jeje y Campeon),
+ * contiene la función necesaria para poder recoger dentro de
+ * la página específica de la web, todos los monstruos que
+ * existen en ella. (ídem para Jefes y Campeones)
+ *
+ * @author Ángel Castro Merino
+ */
 @XmlRootElement(name="Enemigos")
 public class Enemigos {
     int id;
@@ -20,10 +30,26 @@ public class Enemigos {
     String descripcion;
 
     List<Monstruo> monstruos = new ArrayList<>();
-    List<Jefe> jefes = new ArrayList<>();
+    //List<Jefe> jefes = new ArrayList<>();
+    //List<Campeon> campeones = new ArrayList<>();
 
+    /**
+     * Constructor simple de la Clase.
+     */
     public Enemigos(){}
 
+    /**
+     * Constructor utilizado por la clase Personajes para crear
+     * todos los objetos Personaje encontrados en la página web.
+     * Cabe destacar que se filtran algunos de los atributos utilizando
+     * una lista auxiliar para obtener información más limpia.
+     *
+     * @param id            Identificador del objeto.
+     * @param icono         Atributo que indica la dirección de la imagen recogida en la web.
+     * @param nombre        Atributo que indica el nombre recogido en la web.
+     * @param vida          Atributo que indica la vida recogida en la web.
+     * @param descripcion   Atributo que indica la descripción recogida en la web.
+     */
     public Enemigos(int id, String icono, String nombre, int vida, String descripcion) {
         this.id = id;
         this.icono = icono;
@@ -32,6 +58,14 @@ public class Enemigos {
         this.descripcion = descripcion;
     }
 
+    /**
+     * Función que navega a la URL de la web donde se encuentran los personajes, navega a través de ella
+     * para cargar todas las imagenes de éstos y finalmente los recoge y almacena en la Lista de la clase.
+     *
+     * @param driver    Navegador de la web.
+     * @param wait      Objeto que permite detener temporalmente al navegador para cargar la página.
+     * @param goodLinks Lista de los links útiles filtrados.
+     */
     public void getMonstruos(WebDriver driver, WebDriverWait wait, List<String> goodLinks){
         List<WebElement> aux = new ArrayList<>();
         AtomicInteger id = new AtomicInteger(1);
@@ -56,6 +90,73 @@ public class Enemigos {
                 });
             }
         });
+    }
+
+    /**
+     * Devuelve el objeto tipo List<Monstruo> de la clase.
+     *
+     * @return El objeto tipo List<Monstruo> de la clase.
+     */
+    public List<Monstruo> getMonstruos() {
+        return monstruos;
+    }
+
+    /**
+     * Asigna un valor al objeto tipo List<Monstruo> de la clase.
+     */
+    @XmlElement(name="Monstruo")
+    public void setMonstruos(List<Monstruo> monstruos) {
+        this.monstruos = monstruos;
+    }
+
+    /**
+     * Devuelve el atributo id de la clase.
+     *
+     * @return Atributo id de la clase.
+     */
+    @XmlElement(name="Id")
+    public int getId() {
+        return id;
+    }
+
+    /**
+     * Devuelve el atributo icono de la clase.
+     *
+     * @return Atributo icono de la clase.
+     */
+    @XmlElement(name="Icono")
+    public String getIcono() {
+        return icono;
+    }
+
+    /**
+     * Devuelve el atributo nombre de la clase.
+     *
+     * @return Atributo nombre de la clase.
+     */
+    @XmlElement(name="Nombre")
+    public String getNombre() {
+        return nombre;
+    }
+
+    /**
+     * Devuelve el atributo vida de la clase.
+     *
+     * @return Atributo vida de la clase.
+     */
+    @XmlElement(name="Vida")
+    public int getVida() {
+        return vida;
+    }
+
+    /**
+     * Devuelve el atributo descripcion de la clase.
+     *
+     * @return Atributo descripcion de la clase.
+     */
+    @XmlElement(name="Descripcion")
+    public String getDescripcion() {
+        return descripcion;
     }
 
     /*public void getJefes(WebDriver driver, WebDriverWait wait, List<String> goodLinks){
@@ -119,44 +220,10 @@ public class Enemigos {
             tabla.findElements(By.tagName("tr")).forEach(fila -> {
                 aux.addAll(fila.findElements(By.tagName("td")));
                 if(aux.size() != 0) {
-                    monstruos.add(new Monstruo(id.getAndIncrement(), aux));
+                    campeones.add(new Campeon(id.getAndIncrement(), aux));
                 }
                 aux.clear();
             });
         });
     }*/
-
-    public List<Monstruo> getMonstruos() {
-        return monstruos;
-    }
-
-    @XmlElement(name="Monstruo")
-    public void setMonstruos(List<Monstruo> monstruos) {
-        this.monstruos = monstruos;
-    }
-
-    @XmlElement(name="Id")
-    public int getId() {
-        return id;
-    }
-
-    @XmlElement(name="Icono")
-    public String getIcono() {
-        return icono;
-    }
-
-    @XmlElement(name="Nombre")
-    public String getNombre() {
-        return nombre;
-    }
-
-    @XmlElement(name="Vida")
-    public int getVida() {
-        return vida;
-    }
-
-    @XmlElement(name="Descripcion")
-    public String getDescripcion() {
-        return descripcion;
-    }
 }

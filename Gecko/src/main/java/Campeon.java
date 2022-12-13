@@ -1,3 +1,8 @@
+/**
+ * Clase en fase de desarrollo, no se ha creado el scrapeo de las entidades de esta clase.
+ *
+ * @author Ángel Castro Merino
+ */
 public class Campeon extends Enemigos {
     private String color;
     private Objeto recompensa;
