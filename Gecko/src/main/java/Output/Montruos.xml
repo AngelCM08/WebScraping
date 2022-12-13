@@ -1,0 +1,1356 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Enemigos>
+    <Id>0</Id>
+    <Monstruo>
+        <Descripcion>Monstruos que persiguen al jugador de forma lenta inicialmente, adquiriendo velocidad si están lo suficientemente cerca. Suelen ser encontrados en grupos, y tienen suficiente inteligencia para intentar tomar caminos cortos o intentar cortar el paso al jugador.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/5/55/FrowningGaperEnemigo-x2.png/revision/latest?cb=20180719100247&amp;path-prefix=es</Icono>
+        <Id>1</Id>
+        <Nombre>Frowning Gaper</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Monstruos que siguen al jugador. A diferencia que los Frowning Gapers, los Gapers normales siempre caminan lento. Tienen la misma inteligencia artificial que los Frowning Gapers.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/b/b2/GaperEnemigo-x2.png/revision/latest?cb=20180719100124&amp;path-prefix=es</Icono>
+        <Id>2</Id>
+        <Nombre>Gaper</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Gapers envueltos en llamas. Ellos son totalmente idénticos que los Gapers normales, con solamente un cambio totalmente cosmético.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/8/8d/Flaming_Gaper.png/revision/latest?cb=20180719151559&amp;path-prefix=es</Icono>
+        <Id>3</Id>
+        <Nombre>Flaming Gaper</Nombre>
+        <Vida>9</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Cuerpos sin cabeza de los Gapers. Esto caminan sin rumbo alguno. Disparan lágrimas de sangre a cualquier dirección aleatoriamente.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/9/9a/GusherRebirth.png/revision/latest?cb=20180719142316&amp;path-prefix=es</Icono>
+        <Id>4</Id>
+        <Nombre>Gusher</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versión más pacífica de los Gushers. A diferencia de ellos, los Pacers no pueden disparar ningún tipo de proyectil, aunque sigue pudiendo hacer daño al contacto.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/e/e8/Imagen.png/revision/latest?cb=20180719141741&amp;path-prefix=es</Icono>
+        <Id>5</Id>
+        <Nombre>Pacer</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Cabezas que flotan en la misma posición todo el tiempo. Si el jugador está en su campo de visión, ellos intentarán disparar una proyectil directamente hacia el jugador.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/6/6e/HorfEnemigo-x2.png/revision/latest?cb=20180719101453&amp;path-prefix=es</Icono>
+        <Id>6</Id>
+        <Nombre>Horf</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Pequeñas moscas de color negro. Son totalmente inofensivas y juntos con los Dips son los monstruos con menos salud del juego.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/2/22/Black_Fly.png/revision/latest?cb=20190723105107&amp;path-prefix=es</Icono>
+        <Id>7</Id>
+        <Nombre>Fly</Nombre>
+        <Vida>3</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Moscas gordas que no pueden hacer daño al contacto pero pueden disparar proyectiles directamente hacia el jugador si está cerca.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/9/92/PooterEnemigo-x2.png/revision/latest?cb=20180719100326&amp;path-prefix=es</Icono>
+        <Id>8</Id>
+        <Nombre>Pooter</Nombre>
+        <Vida>8</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Pooters más grandes y rojos. Ellos sí pueden hacer daño al contacto y disparan dos proyectiles en vez de uno solo.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/6/6e/SuperPooterEnemigo-x2.png/revision/latest?cb=20180719100405&amp;path-prefix=es</Icono>
+        <Id>9</Id>
+        <Nombre>Super pooter</Nombre>
+        <Vida>8</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Una gran trozo de carne que se arrastra por toda la habitación. Ocasionalmente dispara 4 proyectiles hacia arriba, abajo y los lados.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/4/45/Clotty-0.png/revision/latest?cb=20180719093844&amp;path-prefix=es</Icono>
+        <Id>10</Id>
+        <Nombre>Clotty</Nombre>
+        <Vida>15</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Un monstruo hecho de alquitrán. Al igual que Clotty, se desplaza arrastrándose y dispara 4 proyectiles, aunque Clot los dispara en todas las diagonales.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/4/40/Clot-0.png/revision/latest?cb=20150926165916&amp;path-prefix=es</Icono>
+        <Id>11</Id>
+        <Nombre>Clot</Nombre>
+        <Vida>15</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Un monstruo parecido a Isaac sin ningún tipo de forma consistente. Se arrastra por el suelo y dispara proyectiles. I.Blob dispara 8 en las direcciones que lo hacen Clotty y Clot al mismo tiempo.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/4/4c/IBlobEnemigo-x2.png/revision/latest?cb=20180719101216&amp;path-prefix=es</Icono>
+        <Id>12</Id>
+        <Nombre>I.Blob</Nombre>
+        <Vida>15</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Criaturas similares a Isaac llenas de moscas. En vez de intentar atacar, ellos huye. Tampoco es capaz de hacer daño al contacto, aunque ellos pueden intentar explotar. Al morir generan 4 moscas.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/5/56/MulliganEnemigo-x2.png/revision/latest?cb=20180719100500&amp;path-prefix=es</Icono>
+        <Id>13</Id>
+        <Nombre>Mulligan</Nombre>
+        <Vida>13</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Otra especie de Mulligan. Tiene el mismo comportamiento, pero al explotar también expulsan 4 proyectiles en las direcciones diagonales. Y en vez de generar moscas, generan una bomba trol.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/c/cd/MulligoonEnemigo-x2.png/revision/latest?cb=20180719100539&amp;path-prefix=es</Icono>
+        <Id>14</Id>
+        <Nombre>Mulligoon</Nombre>
+        <Vida>13</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Otro tipo de Mulligan. Sin embargo este tipo es totalmente agresivo. Ellos persiguen al jugador y tienen la habilidad de explotar si hacen contacto con el jugador.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/a/a9/MulliboomEnemigo-x2.png/revision/latest?cb=20180719100627&amp;path-prefix=es</Icono>
+        <Id>15</Id>
+        <Nombre>Mulliboom</Nombre>
+        <Vida>13</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>El monstruo más común del juego. Son pequeñas moscas rojas agresivas que intentar tocar al jugador. Muy comunes en grupos grandes y normalmente generadas por un gran número de monstruos y jefes.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/c/c5/Attack_Fly.png/revision/latest?cb=20180929054325&amp;path-prefix=es</Icono>
+        <Id>16</Id>
+        <Nombre>Attack Fly</Nombre>
+        <Vida>5</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Gusanos blancos que se arrastran por toda la habitación sin ningún rumbo. Ellos se mueven por cuadros, limitando sus movimientos.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/3/30/MaggotEnemigo-x2.png/revision/latest?cb=20180720103927&amp;path-prefix=es</Icono>
+        <Id>17</Id>
+        <Nombre>Maggot</Nombre>
+        <Vida>15</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Mulligans que en vez de solamente huir también puede intentar escupir sus moscas como protección propia. Pueden ser molestosos en algunos casos.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/b/ba/Monstruo_Hive.png/revision/latest?cb=20200306062922&amp;path-prefix=es</Icono>
+        <Id>18</Id>
+        <Nombre>Hive</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones azules de los Hives. Ellos generan Drowned Chargers en vez de moscas. También tiene la posibilidad de generar otro Drowned Charger al morir.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/9/9b/Monstruo_Drowned_Hive.png/revision/latest?cb=20200306060925&amp;path-prefix=es</Icono>
+        <Id>19</Id>
+        <Nombre>Drowned Hive</Nombre>
+        <Vida>18</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Gusanos blancos con ojos y boca. Si el jugador se alínea con ellos, Chargers puede intentar embestir hacia el jugador. Ellos no puede parar su propia embestida hasta topar con la pared o algo más.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/8/8a/ChargerEnemigo-x2.png/revision/latest?cb=20180720112502&amp;path-prefix=es</Icono>
+        <Id>20</Id>
+        <Nombre>Charger</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones azules de los Chargers. Mismo comportamiento, pero al morir disparan 4 proyectiles en las direcciones diagonales.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/d/df/Monstruo_Drowned_Charger.png/revision/latest?cb=20200306060911&amp;path-prefix=es</Icono>
+        <Id>21</Id>
+        <Nombre>Drowned Charger</Nombre>
+        <Vida>22</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones hechas de alquitrán de los Chargers. Ellos tienen un comportamiento similar, pero son mucho más veloces y rebotan al topar con algo, solamente parando cuando se les acaba el ímpetu.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/f/f9/Monstruo_Dank_Charger.png/revision/latest?cb=20200306060719&amp;path-prefix=es</Icono>
+        <Id>22</Id>
+        <Nombre>Dank Charger</Nombre>
+        <Vida>26</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Monstruos de gran velocidad que persiguen al jugador. Al morir quedan sus restos. Si los restos no son eliminados a tiempo, vuelven a regenerarse desde ellos.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/4/42/Monstruo_Globin.png/revision/latest?cb=20200306062652&amp;path-prefix=es</Icono>
+        <Id>23</Id>
+        <Nombre>Globin</Nombre>
+        <Vida>33</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones más veloces de los Globins. Ellos también puede intentar alejarse del jugador mientras son solamente restos.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/9/9d/Monstruo_Gazing_Globin.png/revision/latest?cb=20200306062635&amp;path-prefix=es</Icono>
+        <Id>24</Id>
+        <Nombre>Gazing Globin</Nombre>
+        <Vida>33</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones negras de los Globins. Tienen la habilidad de dejar un rastro negro en su camino. También generan una Spider al "morir" como defensa.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/d/de/Monstruo_Dank_Globin.png/revision/latest?cb=20200306060752&amp;path-prefix=es</Icono>
+        <Id>25</Id>
+        <Nombre>Dank Globin</Nombre>
+        <Vida>33</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Moscas gordas que vagan por toda la habitación. Ellas hacen daño al contacto y explotan al morir. Suelen estar en grupos.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/a/a9/Monstruo_Boom_Fly.png/revision/latest?cb=20190803063352&amp;path-prefix=es</Icono>
+        <Id>26</Id>
+        <Nombre>Boom Fly</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones rojas de las Boom Flys. En vez de explotar al morir, disparan 6 proyectiles hacia todas las direcciones.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/a/ab/Monstruo_Red_Boom_Fly.png/revision/latest?cb=20190803063422&amp;path-prefix=es</Icono>
+        <Id>27</Id>
+        <Nombre>Red Boom Fly</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones azules de las Boom Flys. No solamente explotan al morir, pero disparan 4 proyectiles e incluso tienen la posibilidad de generar un Drowned Charger.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/1/16/Monstruo_Drowned_Boom_Fly.png/revision/latest?cb=20190803063455&amp;path-prefix=es</Icono>
+        <Id>28</Id>
+        <Nombre>Drowned Boom Fly</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Cabezas flotantes que se mueven lentamente intentando acercarse al jugador. Ellos con capaces de dispara un proyectil si tienen la oportunidad.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/6/6d/Monstruo_Maw.png/revision/latest?cb=20200306063414&amp;path-prefix=es</Icono>
+        <Id>29</Id>
+        <Nombre>Maw</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones más rojas de los Maws. Mientras no puede disparar, ellos son muchos más veloces y pueden perseguir al jugador con más facilidad. También expulsan 4 proyectiles al morir.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/2/2e/Monstruo_Red_Maw.png/revision/latest?cb=20200306064113&amp;path-prefix=es</Icono>
+        <Id>30</Id>
+        <Nombre>Red Maw</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Maws con un tercer ojo. Ellos son capaces de disparar proyectiles psíquicos hacia el jugador. Están protegidos por una Eternal Fly cada uno.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/5/54/Monstruo_Psychic_Maw.png/revision/latest?cb=20200306064000&amp;path-prefix=es</Icono>
+        <Id>31</Id>
+        <Nombre>Psychic Maw</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Criaturas que usan su cráneo como una armadura impenetrable. Nunca suelen atacar ya que eso expone su punto débil, pero cuando lo hacen dispara 3 proyectiles hacia el jugador. Suelen atacar si el jugador se aleja.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/a/a2/Monstruo_Host.png/revision/latest?cb=20200306063014&amp;path-prefix=es</Icono>
+        <Id>32</Id>
+        <Nombre>Host</Nombre>
+        <Vida>14</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones rojas de los Hosts. Sus cráneos no pueden protegerlos, y por ello son más agresivos intentando atacar más seguido. Ellos disparan 5 en vez de 3.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/9/9b/Monstruo_Red_Host.png/revision/latest?cb=20200306064057&amp;path-prefix=es</Icono>
+        <Id>33</Id>
+        <Nombre>Red Host</Nombre>
+        <Vida>15</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Cuerpos sin cabezas que saltan por toda la habitación. Usualmente no intentan atacar al jugador.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/9/91/HopperRebirth.png/revision/latest?cb=20180719143326&amp;path-prefix=es</Icono>
+        <Id>34</Id>
+        <Nombre>Hopper</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Criaturas paracidas a arañas con una cara similar a la de Isaac. Ellos pueden dar saltos más largos y percisos. Suelen comportarse muy agresivo si el jugador está cerca.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/3/32/TriteRebirth.png/revision/latest?cb=20180719143623&amp;path-prefix=es</Icono>
+        <Id>35</Id>
+        <Nombre>Trite</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Mazas rojas que necesita crecer antes de atacar. Su tamaño depende de la salud que tenga, siendo capaces de regenerar salud y tamaño. Si están en su tamaño máximo, pueden disparar una ráfaga sin forma de proyectiles hacia el jugador.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/f/f4/Monstruo_Boil.png/revision/latest?cb=20200306060333&amp;path-prefix=es</Icono>
+        <Id>36</Id>
+        <Nombre>Boil</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones verdes de los Boils. Ellos se comportan de la misma manera, pero en vez de proyectiles rojos, Guts disparan proyectiles explosivos.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/a/af/Monstruo_Gut.png/revision/latest?cb=20200306062816&amp;path-prefix=es</Icono>
+        <Id>37</Id>
+        <Nombre>Gut</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones blancas de los Boils. Mismo comportamiento que los Boils y Guts. Pero la diferencia es que Sack genera Spiders en vez cuando tiene su salud al máximo.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/d/dd/SackRebirth.png/revision/latest?cb=20180719143900&amp;path-prefix=es</Icono>
+        <Id>38</Id>
+        <Nombre>Sack</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Gusanos gordos que se arrastran lentamente por la habitación. Son capaces de disparar una proyectil hacia el jugador si está en su campo de visión.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/c/c5/Monstruo_Spitty.png/revision/latest?cb=20200306064315&amp;path-prefix=es</Icono>
+        <Id>39</Id>
+        <Nombre>Spitty</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Cerebros que se arrastran por la habitación sin rumbo. Ellos dejan un rastro rojo, que es capaz de dañar al jugador si lo pisa.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/d/d9/Monstruo_Brain.png/revision/latest?cb=20200306060420&amp;path-prefix=es</Icono>
+        <Id>40</Id>
+        <Nombre>Brain</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Cuerpos sin cabezas que saltan por la habitación. Puede intentar dar saltos altos hacia el jugador, disparando 4 proyectiles al aterrizar.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/b/b6/Monstruo_Leaper.png/revision/latest?cb=20200306063202&amp;path-prefix=es</Icono>
+        <Id>41</Id>
+        <Nombre>Leaper</Nombre>
+        <Vida>25</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Humanoide con un cuello largo. Ellos son capaces de lanzar su cabeza al estar cerca del jugador. Al morir, pueden seguir vivos como un Gusher o un Maw.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/8/8c/Monstruo_Mr_Maw.png/revision/latest/scale-to-width-down/22?cb=20200306063621&amp;path-prefix=es</Icono>
+        <Id>42</Id>
+        <Nombre>Mr. Maw</Nombre>
+        <Vida>25</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones rojas de los Mr. Maw. Ellos son lo mismo, pero más veloces. Pueden seguir vivos como un Gusher o un Red Maw.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/0/02/Monstruo_Mr_Red_Maw.png/revision/latest/scale-to-width-down/82?cb=20200306063654&amp;path-prefix=es</Icono>
+        <Id>43</Id>
+        <Nombre>Mr. Red Maw</Nombre>
+        <Vida>25</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Bebés flotantes que intentan acercarse al jugador. Pueden dispara un proyectil directamente hacia el jugador si está cerca. También son capaces de teletransportarse a un sitio seguro o más cerca del jugador.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/e/e3/Monstruo_Baby.png/revision/latest?cb=20200306060148&amp;path-prefix=es</Icono>
+        <Id>44</Id>
+        <Nombre>Baby</Nombre>
+        <Vida>25</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Bebés que son ángeles. Versiones mejoradas de los bebés normales. Son más rápidos y pueden dispara 3 proyectiles en vez de uno.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/c/c1/Monstruo_Angelic_Baby.png/revision/latest?cb=20200306060134&amp;path-prefix=es</Icono>
+        <Id>45</Id>
+        <Nombre>Angelic Baby</Nombre>
+        <Vida>25</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Cuerpos gordos sin cabeza. Ellos tienen un apertura en su estómago, y pueden dispara un gran láser de sangre desde eso.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/4/4c/Monstruo_Vis.png/revision/latest?cb=20200306064557&amp;path-prefix=es</Icono>
+        <Id>46</Id>
+        <Nombre>Vis</Nombre>
+        <Vida>25</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Otro tipo de Vis. Ellos tienen dos aperturas en vez de una sola. Esto les permiten dispara hacia el frente y atrás de ellos.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/c/c9/Monstruo_Double_Vis.png/revision/latest?cb=20200306060850&amp;path-prefix=es</Icono>
+        <Id>47</Id>
+        <Nombre>Double Vis</Nombre>
+        <Vida>25</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Vises con un gusano. Ellos pueden usar el gusano como un búmeran. El gusano es capaz de bloquear proyectiles también.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/c/ce/Monstruo_Chubber.png/revision/latest?cb=20200306060533&amp;path-prefix=es</Icono>
+        <Id>48</Id>
+        <Nombre>Chubber</Nombre>
+        <Vida>25</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Vises con un tono de piel mucho más palidos. Similares a los Double Vises, pero estos Vises son capaces de disparar 4 láseres en vez.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/f/fb/Monstruo_Scarred_Double_Vis.png/revision/latest?cb=20200306064153&amp;path-prefix=es</Icono>
+        <Id>49</Id>
+        <Nombre>Scarred Double Vis</Nombre>
+        <Vida>22</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Tripas que se arrastra rápidamente. Ellos solametne se desplazan por donde están pegados, como toda la pared o solamente una roca.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/d/de/Monstruo_Guts.png/revision/latest?cb=20200306062832&amp;path-prefix=es</Icono>
+        <Id>50</Id>
+        <Nombre>Guts</Nombre>
+        <Vida>25</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones rosadas de los Gutses. Esto viajan en el sentido contrario y tiene un poco más de salud.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/1/1c/Monstruo_Scarred_Guts.png/revision/latest?cb=20200306064209&amp;path-prefix=es</Icono>
+        <Id>51</Id>
+        <Nombre>Scarred Guts</Nombre>
+        <Vida>28</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Monstruo con una parte frontal totalmente resistente a todo, pero su cerebro está expuesto por detrás, siendo posible dañarlo al atacar esa parte. Pueden intentar correr hacia una dirección si ven al jugador.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/3/30/Monstruo_Knight.png/revision/latest?cb=20200306063143&amp;path-prefix=es</Icono>
+        <Id>52</Id>
+        <Nombre>Knight</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones mejoradas de los Knight. Ellos son mucho más veloces al intentar atacar al jugador.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/8/8c/Monstruo_Selfless_Knight.png/revision/latest?cb=20200306064240&amp;path-prefix=es</Icono>
+        <Id>53</Id>
+        <Nombre>Selfless Knight</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Trampas de piedras que son capaces de disparar proyectiles hacia el jugador. Son desactivadas al acabar la habitación.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/d/d7/Monstruo_Stone_Grimace.png/revision/latest?cb=20200306064408&amp;path-prefix=es</Icono>
+        <Id>54</Id>
+        <Nombre>Stone Grimace</Nombre>
+        <Vida>9999</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones verdes de los Stone Grimaces. Ellos dispara un proyectil explosivo en vez, e igual directamente hacia el jugador.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/2/21/Monstruo_Vomit_Grimace.png/revision/latest?cb=20200306064611&amp;path-prefix=es</Icono>
+        <Id>55</Id>
+        <Nombre>Vomit Grimace</Nombre>
+        <Vida>9999</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Trampas con pinchos. Se mueven por toda la habitación. Ellos paran y sus pinchos desaparecen al terminan una habitación.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/9/96/Monstruo_Poky.png/revision/latest?cb=20200306063925&amp;path-prefix=es</Icono>
+        <Id>56</Id>
+        <Nombre>Poky</Nombre>
+        <Vida>9999</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Trampas azules que se deslizan rápidamente a una velocidad ridícula hacia el camino del jugador si no tiene cuidado.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/7/74/Slide_Enemigo_x2.png/revision/latest?cb=20180927062659&amp;path-prefix=es</Icono>
+        <Id>57</Id>
+        <Nombre>Slide</Nombre>
+        <Vida>9999</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Doppelgängers de Isaac que no tienen piel. Ellos imitan el movimiento del jugador pero en la parte contraria de la habitación. También disparan lágrimas cuando el jugador lo hace.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/d/dd/Monstruo_Dople.png/revision/latest?cb=20200306060836&amp;path-prefix=es</Icono>
+        <Id>58</Id>
+        <Nombre>Dople</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones más poderosas de los Doples. Ellos tiene alas, lo que les permite ser invulnerables a las púas, y pueden disparar tres lágrimas veloces a un ritmo más rápido.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/0/02/Monstruo_Evil_Twin.png/revision/latest?cb=20200306062357&amp;path-prefix=es</Icono>
+        <Id>59</Id>
+        <Nombre>Evil Twin</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones en llamas de los Hoppers. Ellos dan saltos más largos y tienden a intentar atacar al jugador más seguido.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/e/e9/Flaming_Hopper.png/revision/latest?cb=20180719144425&amp;path-prefix=es</Icono>
+        <Id>60</Id>
+        <Nombre>Flaming Hopper</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Sanguijuelas flotantes que embisten al jugador si este está en su campo de visión. Ellos son fácilmente afectados por el empuje (knockback).</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/e/ea/Monstruo_Leech.png/revision/latest?cb=20200306063220&amp;path-prefix=es</Icono>
+        <Id>61</Id>
+        <Nombre>Leech</Nombre>
+        <Vida>25</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones negras de los Leechs. Ellos explotan al morir similar a los Boom Flys.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/6/6d/Monstruo_Kamikaze_Leech.png/revision/latest?cb=20200306063106&amp;path-prefix=es</Icono>
+        <Id>62</Id>
+        <Nombre>Kamikaze Leech</Nombre>
+        <Vida>25</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones blancas de los Leechs. Tiene el mismo comportamiento que los Kamikaze Leech - que explotan al morir, pero también están acompañados por una Eternal Fly.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/6/64/Monstruo_Holy_Leech.png/revision/latest?cb=20200306062938&amp;path-prefix=es</Icono>
+        <Id>63</Id>
+        <Nombre>Holy Leech</Nombre>
+        <Vida>25</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Monstruo que es oculta en la tierra. Ellos suelen intentar atacar, pero intentan mantenterse oculto del jugador más seguido. Pueden disparar 3 proyectiles hacia el jugador.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/4/45/Monstruo_Lump.png/revision/latest?cb=20200306063327&amp;path-prefix=es</Icono>
+        <Id>64</Id>
+        <Nombre>Lump</Nombre>
+        <Vida>30</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Cerebros gigantes que se mueven lentamente por la habitación. Ellos pueden intentar dispara 8 proyectiles hacia todas las direcciones. Al morir genera 2 Brains.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/8/88/Monstruo_MemBrain.png/revision/latest/scale-to-width-down/76?cb=20200306063504&amp;path-prefix=es</Icono>
+        <Id>65</Id>
+        <Nombre>MemBrain</Nombre>
+        <Vida>62</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones alternativas de MemBrain. Al igual que los MemBrains, puede disparar 8 proyectiles. Pero al morir genera Gutses en vez de Brains.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/9/9f/Monstruo_Mama_Guts.png/revision/latest/scale-to-width-down/76?cb=20200306063342&amp;path-prefix=es</Icono>
+        <Id>66</Id>
+        <Nombre>Mama Guts</Nombre>
+        <Vida>62</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Gusanos de tierra que persiguen al jugador. Tienden a aprovechar el ocultarse mucho y pueden aparecer en otro lugar de la habitación tras ocultarse.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/d/d5/Monstruo_Para-Bite.png/revision/latest?cb=20200306063839&amp;path-prefix=es</Icono>
+        <Id>67</Id>
+        <Nombre>Para-Bite</Nombre>
+        <Vida>35</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones sin cabeza de los Para-Bites. Ellos son capaces de disparar proyectiles hacia alguna dirección aleatoria.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/5/57/Monstruo_Scarred_Para-Bite.png/revision/latest?cb=20200306064224&amp;path-prefix=es</Icono>
+        <Id>68</Id>
+        <Nombre>Scarred Para-Bite</Nombre>
+        <Vida>35</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Monstruo que se ocultan en la tierra. Ellos pueden intentar acercarse al jugador para atacar. Ellos principalmente dispara proyectiles explosivos, pero también puede dispara proyectiles normales al saltar.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/b/b6/Monstruo_Fred.png/revision/latest?cb=20200306062604&amp;path-prefix=es</Icono>
+        <Id>69</Id>
+        <Nombre>Fred</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Ojos que están en el suelo. Ellos intentar mantener la mirada hacia el jugador. Cuando su mirada está fijamente en el jugador, ellos disparan un láser pequeño.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/c/c4/Monstruo_Eye.png/revision/latest?cb=20200306062412&amp;path-prefix=es</Icono>
+        <Id>70</Id>
+        <Nombre>Eye</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Grandes ojos que giran. Ellos tienen un comportamiento similar a los Eyes normales, pero dispara láseres de sangre en vez.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/7/7c/Monstruo_Bloodshot_Eye.png/revision/latest?cb=20200306060308&amp;path-prefix=es</Icono>
+        <Id>71</Id>
+        <Nombre>Bloodshot Eye</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Moscas llenas de sangre. Persiguen al jugador y al morir disparar 4 proyectiles.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/c/cc/SuckerRebirth.png/revision/latest?cb=20180719144727&amp;path-prefix=es</Icono>
+        <Id>72</Id>
+        <Nombre>Sucker</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones verdes de los Suckers. Dispara un proyectil explosivo en vez de los 4 proyectiles rojos.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/d/d9/SpitRebirth.png/revision/latest?cb=20180719144941&amp;path-prefix=es</Icono>
+        <Id>73</Id>
+        <Nombre>Spit</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Un mosca con un gran exceso de sangre. Al morir, deja un pequeño vortice de sangre, que termina explotando en 4 poderosos láseres de sangre hacia todas las direcciones.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/6/65/Monstruo_Soul_Sucker.png/revision/latest?cb=20200306064255&amp;path-prefix=es</Icono>
+        <Id>74</Id>
+        <Nombre>Soul Sucker</Nombre>
+        <Vida>18</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Un embrión que salta por la habitación sin rumbo. No pueden intentar atacar, pero sigue siendo capaz de hacer daño al contacto.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/a/ae/EmbryoRebirth.png/revision/latest?cb=20180719145226&amp;path-prefix=es</Icono>
+        <Id>75</Id>
+        <Nombre>Embryo</Nombre>
+        <Vida>12</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Moscas unidas entre sí que persiguen al jugador. Al morir se dividen en dos Attack Flys.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/5/5f/Moter.png/revision/latest?cb=20190723110347&amp;path-prefix=es</Icono>
+        <Id>76</Id>
+        <Nombre>Moter</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Uno de los monstruos más comunes del juego. Arañas pequeñas que se mueven erráticamente por toda la habitación. Pueden ser muy agresivas con el jugador, incluso llegando a perseguirlo de forma constante. En grupos grandes suelen ser una gran molestía.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/c/cc/SpiderRebirth.png/revision/latest?cb=20180929054233&amp;path-prefix=es</Icono>
+        <Id>77</Id>
+        <Nombre>Spider</Nombre>
+        <Vida>7</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Cabezas de los cuidadores de tiendas vivas. Ellos brincan por la habitación y disparan 2 proyectiles hacia el jugador. Si hacen daño al contacto o por sus proyectiles, el jugador pierde dos monedas.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/f/f5/Monstruo_Keeper.png/revision/latest?cb=20200306063124&amp;path-prefix=es</Icono>
+        <Id>78</Id>
+        <Nombre>Keeper</Nombre>
+        <Vida>36</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones verdes de los Gapers. Ellos intentar perseguir al jugador lentamente, pero tienen la habilidad de escupir proyectiles explosivos. También son inmunes a sus propios proyectiles.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/5/51/Monstruo_Gurgle.png/revision/latest?cb=20200306062730&amp;path-prefix=es</Icono>
+        <Id>79</Id>
+        <Nombre>Gurgle</Nombre>
+        <Vida>40</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Un Boil caminante. Ellos no pueden reducir su tamaño ni recuperar su salud con el tiempo, pero pueden dispara con regularidad siepre. Ellos caminan sin rumbo.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/8/8a/Monstruo_Walking_Boil.png/revision/latest?cb=20200306064624&amp;path-prefix=es</Icono>
+        <Id>80</Id>
+        <Nombre>Walking Boil</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones verdes de los Walking Boil. Ellos disparan un proyectil explosivo en vez de proyectiles rojos.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/f/f1/Monstruo_Walking_Gut.png/revision/latest?cb=20200306064640&amp;path-prefix=es</Icono>
+        <Id>81</Id>
+        <Nombre>Walking Gut</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones blancas de los Walking Boil. Ellos generan Spiders en vez de dispara algún tipo de proyectil.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/e/e5/Monstruo_Walking_Sack.png/revision/latest?cb=20190723121312&amp;path-prefix=es</Icono>
+        <Id>82</Id>
+        <Nombre>Walking Sack</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Monstruos que aparecen en grupos en una fila viajando por la habitación aleatoriamente.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/a/a8/Monstruo_Buttlicker.png/revision/latest?cb=20200306060501&amp;path-prefix=es</Icono>
+        <Id>83</Id>
+        <Nombre>Buttlicker</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Cuidadores de tiendas colgados del cuello. Ellos se mueven lentamente hacia el jugador, son protegidos por una Eternal Fly, y disparan 3 proyectiles hacia el jugador desde cerca. Al igual que Keeper, puede robar monedas del jugador.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/1/14/Monstruo_Hanger.png/revision/latest/scale-to-width-down/31?cb=20191018225739&amp;path-prefix=es</Icono>
+        <Id>84</Id>
+        <Nombre>Hanger</Nombre>
+        <Vida>40</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Un monstruo extraño que está compuesto de una cabeza y un cuerpo hecho de moscas. Genera moscas conforme su salud es reducida. Al morir genera una Boom Fly.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/c/c7/Monstruo_Swarmer.png/revision/latest/scale-to-width-down/78?cb=20200306064424&amp;path-prefix=es</Icono>
+        <Id>85</Id>
+        <Nombre>Swarmer</Nombre>
+        <Vida>40</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Corazones que intentar huir del jugador. Estos corazones son protegidos por sus máscaras.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/9/9c/Monstruo_Heart.png/revision/latest?cb=20200306062906&amp;path-prefix=es</Icono>
+        <Id>86</Id>
+        <Nombre>Heart</Nombre>
+        <Vida>40</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Máscaras flotantes que embisten hacia el jugador. Ellas son muy agresivas y no pueden ser matadas. Sin embargo, cada máscara tiene un corazón, y si el corazón muere, la máscara también.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/b/bf/Monstruo_Mask.png/revision/latest?cb=20200306063358&amp;path-prefix=es</Icono>
+        <Id>87</Id>
+        <Nombre>Mask</Nombre>
+        <Vida>9999</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Arañas gigantes que intentar acercarse al jugador. Ellas son más determinadas que las Spider normales. Al morir genera 2 Spiders.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/5/55/Big_Spider.png/revision/latest?cb=20180719145403&amp;path-prefix=es</Icono>
+        <Id>88</Id>
+        <Nombre>Big Spider</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Moscas grises que son inmortales. Ellas funcionan principalmente como protección para algunos monstruos o pilas de popo con choclos. Si pierden lo que estaban protegiendo, se convierten en Attack Flys.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/6/6d/Monstruo_Eternal_Fly.png/revision/latest?cb=20191022081907&amp;path-prefix=es</Icono>
+        <Id>89</Id>
+        <Nombre>Eternal Fly</Nombre>
+        <Vida>9999</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Ojos de piedras que rotan mientras disparan un láser todo el tiempo. Pero su láser puede ser bloqueado por rocas. Estos funcionan como trampas y pueden ser desactivados al terminan una habitación.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/6/69/Monstruo_Stone_Eye.png/revision/latest?cb=20200306064351&amp;path-prefix=es</Icono>
+        <Id>90</Id>
+        <Nombre>Stone Eye</Nombre>
+        <Vida>9999</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Estatuas de piedra que dispara disparan todo el tiempo hacia la misma dirección. Estas trampas puede que se desactiven al terminar una habitación, pero incluso algunos nunca se desactivan.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/0/0f/Monstruo_Constant_Stone_Shooter.png/revision/latest?cb=20200306060623&amp;path-prefix=es</Icono>
+        <Id>91</Id>
+        <Nombre>Constant Stone Shooter</Nombre>
+        <Vida>9999</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Otra variación de Constant Stone Shooter. Esta versión puede disparar hacia 4 direcciones al mismo tiempo y gira 45º al hacerlo cada vez.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/3/35/Monstruo_Cross_Stone_Shooter.png/revision/latest?cb=20200306060704&amp;path-prefix=es</Icono>
+        <Id>92</Id>
+        <Nombre>Cross Stone Shooter</Nombre>
+        <Vida>9999</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Cabezas de piedra que pueden disparar láseres de sangre cada lapso de tiempo. Pueden que se desactiven o puede que no al terminar una habitación.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/2/2b/Monstruo_Brimstone_Head.png/revision/latest?cb=20200306060434&amp;path-prefix=es</Icono>
+        <Id>93</Id>
+        <Nombre>Brimstone Head</Nombre>
+        <Vida>9999</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Hosts con un cuerpo. Ellos son iguales a los Hosts normales, con un comportamiento similar. Aunque Mobile Hosts sí pueden hacer daño al contacto.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/a/a2/Monstruo_Mobile_Host.png/revision/latest?cb=20200306063523&amp;path-prefix=es</Icono>
+        <Id>94</Id>
+        <Nombre>Mobile Host</Nombre>
+        <Vida>14</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Mulligans llenos de arañas en vez de moscas. Se comportan similar a los Hives, usando sus arañas para protegerse. Al morir pueden generar una Big Spider o un Trite.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/b/b5/Monstruo_Nest.png/revision/latest?cb=20190723121234&amp;path-prefix=es</Icono>
+        <Id>95</Id>
+        <Nombre>Nest</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Arañas con patas largas que pueden generar Spiders a un ritmo rápido. Siempre intentar mantener distancia del jugador de manera miedosa. Pero incluso puede llegar a atacar al jugador con el próposito de huir.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/4/48/Monstruo_Baby_Long_Legs.png/revision/latest?cb=20190723120957&amp;path-prefix=es</Icono>
+        <Id>96</Id>
+        <Nombre>Baby Long Legs</Nombre>
+        <Vida>16</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones pequeñas de las Baby Long Legs. Ellas generan Sacks en vez de Spiders.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/0/05/SmallBabyLongLegsEnemigo-x2.png/revision/latest?cb=20180720110144&amp;path-prefix=es</Icono>
+        <Id>97</Id>
+        <Nombre>Small Baby Long Legs</Nombre>
+        <Vida>12</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Arañas con patas largas que persiguen constantemente al jugador. También pueden detenerse y disparar 8 proyectiles hacia todas las direcciones.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/9/9f/Monstruo_Crazy_Long_Legs.png/revision/latest?cb=20190723121147&amp;path-prefix=es</Icono>
+        <Id>98</Id>
+        <Nombre>Crazy Long Legs</Nombre>
+        <Vida>16</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones pequeñas de las Crazy Long Legs. En vez de poder disparar 8 proyectiles, solo pueden 4 en las direcciones diagonales.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/f/f8/SmallCrazyLongLegsEnemigo-x2.png/revision/latest?cb=20180720110231&amp;path-prefix=es</Icono>
+        <Id>99</Id>
+        <Nombre>Small Crazy Long Legs</Nombre>
+        <Vida>12</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Humanoide parecidos a Isaac pero muchos más gordos. Tiene una buena cantidad de salud para un monstruo que aparece temprano en las partidas. Se mueven muy lento para intentar acercarse al jugador, y tienen la capacidad de echar un pedo que puede empujar al jugador y otros monstruos.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/5/59/Fatty.png/revision/latest?cb=20180719140741&amp;path-prefix=es</Icono>
+        <Id>100</Id>
+        <Nombre>Fatty</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones pálidas de los Fattys. Ellos se comportan igual, pero puede disparar 6 proyectiles a echarse el pedo. Al morir tiene la posibilidad de ser convertido en un Blubber o un Half Sack.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/2/20/Pale_Fatty_Enemigo_x2.png/revision/latest?cb=20180926161628&amp;path-prefix=es</Icono>
+        <Id>101</Id>
+        <Nombre>Pale Fatty</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones en llamas de los Fattys. Al morir dejan una fógata que puede hacer daño al jugador.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/3/3f/Flaming_Fatty.png/revision/latest?cb=20180719145732&amp;path-prefix=es</Icono>
+        <Id>102</Id>
+        <Nombre>Flaming Fatty</Nombre>
+        <Vida>18</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Monstruos gordos que se mueven lentamente por la habitación. Sin embargo, pueden hacer saltos altos hacia el jugador. Al aterrizar, disparan 6 proyectiles y genera un rastro rojo que hace daño. Puede terminar siendo un Blubber o un Half Sack al morir.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/d/d8/Monstruo_Fat_Sack.png/revision/latest?cb=20200306070635&amp;path-prefix=es</Icono>
+        <Id>103</Id>
+        <Nombre>Fat Sack</Nombre>
+        <Vida>16</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Un cuerpo gordo sin cabeza. Ellos caminan sin rumbo por la habitación mientras dispara proyectiles rojos en direcciones y velocidades aleatorias. Al morir tiene la posibilidad de ser convertido en un Half Sack.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/2/28/Monstruo_Blubber.png/revision/latest?cb=20191022081129&amp;path-prefix=es</Icono>
+        <Id>104</Id>
+        <Nombre>Blubber</Nombre>
+        <Vida>16</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>El medio cuerpo gordo de un Pale Fatty. Sin rumbo alguno, deja rastro rojo por donde camina.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/0/08/Monstruo_Half_Sack.png/revision/latest?cb=20200306062849&amp;path-prefix=es</Icono>
+        <Id>105</Id>
+        <Nombre>Half Sack</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Cráneos flotantes inmortales. Tratan de hacer daño al contacto y bloquear los proyectiles del jugador. Mueren al terminar la habitación.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/c/c0/Deaths_Head_Enemigo_x2.png/revision/latest?cb=20180926161558&amp;path-prefix=es</Icono>
+        <Id>106</Id>
+        <Nombre>Death's Head</Nombre>
+        <Vida>9999</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones negras de los Death's Heads. Ellos pueden ser matados a diferencia que su versión normal, requiriendo sus muertes para acabar la habitación.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/d/d1/Monstruo_Dank_Death%27s_Head.png/revision/latest?cb=20200306060737&amp;path-prefix=es</Icono>
+        <Id>107</Id>
+        <Nombre>Dank Death's Head</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>La mano de Mom. Intenta atrapar al jugador desde el techo. Si lo atrapa, lo regresa a la habitación inicial.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/3/31/Monstruo_Mom%27s_Hand.png/revision/latest/scale-to-width-down/80?cb=20200306063606&amp;path-prefix=es</Icono>
+        <Id>108</Id>
+        <Nombre>Mom's Hand</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Moscas más grandes. Tienen el mismo comportamiento que la versión normal.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/6/6f/Monstruo_Level_2_Fly.png/revision/latest?cb=20190723121220&amp;path-prefix=es</Icono>
+        <Id>109</Id>
+        <Nombre>lvl2 Fly</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Arañas más grandes. Se comportan de la misma manera que la versión normal.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/e/e6/Level_2_Spider.png/revision/latest?cb=20180719150618&amp;path-prefix=es</Icono>
+        <Id>110</Id>
+        <Nombre>lvl2 Spider</Nombre>
+        <Vida>13</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Un monstruo extraño. Es un montón de carne con una cabeza enlazada a este. El montón se mueve lenta acercándose mientras la cabeza gira alrededor del montón. Al morir pueden convertirse en un Goblin o un Maw.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/4/4a/Monstruo_Swinger.png/revision/latest/scale-to-width-down/35?cb=20200306064439&amp;path-prefix=es</Icono>
+        <Id>111</Id>
+        <Nombre>Swinger</Nombre>
+        <Vida>38</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Una pequeña popo viviente. No suele causar problemas si se tiene el cuidado suficiente mientras se combate otros monstruos.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/6/68/Dip.png/revision/latest?cb=20150926170558&amp;path-prefix=es</Icono>
+        <Id>112</Id>
+        <Nombre>Dip</Nombre>
+        <Vida>3</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Dips con un poco de choclos. Se comportan de manera similar a su versión normal solo que son mas rapidos.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/9/93/Monstruo_Corn.png/revision/latest?cb=20200306060649&amp;path-prefix=es</Icono>
+        <Id>113</Id>
+        <Nombre>Corn</Nombre>
+        <Vida>3</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Otro tipo de Dips con choclos, pero mucho más amarillento. Tiene un tipo de movimiento más activo.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/d/d3/Monstruo_Brownie_Corn.png/revision/latest?cb=20190723121130&amp;path-prefix=es</Icono>
+        <Id>114</Id>
+        <Nombre>Brownie Corn</Nombre>
+        <Vida>3</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Pokys que tienen el mismo comportamiento que los Gutses. Solamente sigue su camino pegado a la pared o roca.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/2/29/Monstruo_Wall_Hugger.png/revision/latest?cb=20190723121332&amp;path-prefix=es</Icono>
+        <Id>115</Id>
+        <Nombre>Wall Hugger</Nombre>
+        <Vida>9999</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Fantasmas que aparecen y desaparecen constantemente. Al aparecer intentar escupir hacia el jugador. Suelen aparecer en grupos.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/a/a5/Monstruo_Wizoob.png/revision/latest?cb=20200306064652&amp;path-prefix=es</Icono>
+        <Id>116</Id>
+        <Nombre>Wizoob</Nombre>
+        <Vida>25</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Pilas de popo vivientes. Intentan embestir al jugador cuando tienen la oportunidad. Al morir generan dos Dips.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/b/b4/Squirt.png/revision/latest?cb=20180719150408&amp;path-prefix=es</Icono>
+        <Id>117</Id>
+        <Nombre>Squirt</Nombre>
+        <Vida>15</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones de alquitrán de los Squirts. Ellos dejan un rastro negro al embestir. También pueden usar el rastro para deslizarse y alejarse.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/1/13/Monstruo_Dank_Squirt.png/revision/latest?cb=20200306060806&amp;path-prefix=es</Icono>
+        <Id>118</Id>
+        <Nombre>Dank Squirt</Nombre>
+        <Vida>15</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Gusanos escondidos en un pedazo de carne. Ellos suelen estar ocultos, saliendo de su guarida si se sienten seguros. En su escondite son invencibles y generan proyectiles cuando recibe un golpe.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/e/ec/Monstruo_Cod_Worm.png/revision/latest?cb=20200306060549&amp;path-prefix=es</Icono>
+        <Id>119</Id>
+        <Nombre>Cod Worm</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Moscas que se juntan para hacer una formación en forma de anillo. Suelen estar en grupos grandes para lograrlo.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/6/62/Ring_Fly.png/revision/latest/scale-to-width-down/85?cb=20191030110405&amp;path-prefix=es</Icono>
+        <Id>120</Id>
+        <Nombre>Ring Fly</Nombre>
+        <Vida>5</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Una gigante pila de popo lenta. Pueden intentar disparar 8 proyectiles hacia todas las direcciones. Al morir se convierte en dos Squirts.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/a/ac/Monstruo_Dinga.png/revision/latest/scale-to-width-down/87?cb=20200306060820&amp;path-prefix=es</Icono>
+        <Id>121</Id>
+        <Nombre>Dinga</Nombre>
+        <Vida>62</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Un monstruo gigante que embiste hacia la derecha o izquierda solamente. Él puede pasar al otro lado de la pantalla al hacer eso.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/b/bd/Monstruo_Oob.png/revision/latest/scale-to-width-down/67?cb=20200306192511&amp;path-prefix=es</Icono>
+        <Id>122</Id>
+        <Nombre>Oob</Nombre>
+        <Vida>100</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Similar a Oob, embiste a algunos de los lados si el jugador está ahí. Pero en vez de pasar al otro lado de la pantalla, regresa por el mismo a donde fue. Explota al morir.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/8/87/Monstruo_Black_Maw.png/revision/latest/scale-to-width-down/78?cb=20200306060226&amp;path-prefix=es</Icono>
+        <Id>123</Id>
+        <Nombre>Black Maw</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Humanoide con una piel más grande que ellos mismos. Caminan lentamente hacia el jugador mientras deja un rastro rojo pequeño.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/5/55/Melt.png/revision/latest?cb=20141122131231&amp;path-prefix=es</Icono>
+        <Id>124</Id>
+        <Nombre>Skinny</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones más verdosas de los Skinnys. No dejan el rastro rojo, pero al morir pueden convertirse en una Attack Fly o un Bony.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/8/84/Monstruo_Rotty.png/revision/latest?cb=20200306064138&amp;path-prefix=es</Icono>
+        <Id>125</Id>
+        <Nombre>Rotty</Nombre>
+        <Vida>16</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Skinnys en llamas. Se acercan al jugador, pero ellos son más rápidos entre menos salud tengan. Ellos también pierde salud con el tiempo.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/d/d1/CrispyEnemigo-x2.png/revision/latest?cb=20180726075846&amp;path-prefix=es</Icono>
+        <Id>126</Id>
+        <Nombre>Crispy</Nombre>
+        <Vida>12</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Esqueletos que lanzan huesos si el jugador está en su campo de visión. Nunca persiguen al jugador y simplemente camina por la habitación en su propio asunto.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/1/1c/Monstruo_Bony.png/revision/latest?cb=20200306060358&amp;path-prefix=es</Icono>
+        <Id>127</Id>
+        <Nombre>Bony</Nombre>
+        <Vida>8</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Humanoides atados a una pila de popo o la pared intentando romper el cordón. Al romper genera 6 proyectiles y corre rápidamente hacia el jugador. Provocación puede hacer que rompa el cordón más rápido.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/0/0e/Monstruo_Homunculus.png/revision/latest?cb=20200306062957&amp;path-prefix=es</Icono>
+        <Id>128</Id>
+        <Nombre>Homunculus</Nombre>
+        <Vida>36</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Bultos flotantes con un único orificio. Dispara 6 proyectiles hacia todas las direcciones aleatoriamente.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/e/eb/Monstruo_Tumor.png/revision/latest?cb=20200306064543&amp;path-prefix=es</Icono>
+        <Id>129</Id>
+        <Nombre>Tumor</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Bultos negros flotantes con un ojo gigante. Bastante agresivo; intenta atacar con su láser al mirar al jugador. Su disparo es bastante rápido y difícil de esquivar.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/a/a7/Monstruo_Camillo_Jr.png/revision/latest?cb=20200306060519&amp;path-prefix=es</Icono>
+        <Id>130</Id>
+        <Nombre>Camillo Jr.</Nombre>
+        <Vida>32</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Un nervio gigante que no puede moverse ni atacar. En vez funciona más como un escudo viviente para absorbe daño.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/2/26/Monstruo_Nerve_Ending.png/revision/latest?cb=20191022082536&amp;path-prefix=es</Icono>
+        <Id>131</Id>
+        <Nombre>Nerve Ending</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones amarillas de los Nerve Endings. Ellos sí pueden atacar pero solamente de los lados.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/d/d2/Monstruo_Nerve_Ending_2.png/revision/latest?cb=20200306063728&amp;path-prefix=es</Icono>
+        <Id>132</Id>
+        <Nombre>Nerve Ending 2</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Murciélagos con un solo diente. Ellos intentar acercarse hacia el jugador, solo para intentar embestir desde cerca.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/a/ac/Monstruo_One_Tooth.png/revision/latest?cb=20200306063759&amp;path-prefix=es</Icono>
+        <Id>133</Id>
+        <Nombre>One Tooth</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Estatuas de piedra que absorbe al jugador hacia una dirección. No puede hacer daño por ellos mismos, pero pueden acercar al jugador a otras trampas.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/5/53/Monstruo_Gaping_Maw.png/revision/latest?cb=20200306062619&amp;path-prefix=es</Icono>
+        <Id>134</Id>
+        <Nombre>Gaping Maw</Nombre>
+        <Vida>9999</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones rotas de los Gaping Maws. Son más potentes que la versión normal.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/4/44/Monstruo_Broken_Gaping_Maw.png/revision/latest?cb=20200306060447&amp;path-prefix=es</Icono>
+        <Id>135</Id>
+        <Nombre>Broken Gaping Maw</Nombre>
+        <Vida>9999</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones pequeñas de Gurdy. Ellas caminan por toda la habitación sin rumbo, hasta encontrar al jugador e intentar embestir. Generan un rastro rojo al embestir.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/4/45/Monstruo_Gurgling.png/revision/latest?cb=20200306062744&amp;path-prefix=es</Icono>
+        <Id>136</Id>
+        <Nombre>Gurgling</Nombre>
+        <Vida>24</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones verdes de los Gushers. Ellos disparar proyectiles explosivos en vez de normales. Son inmunes a sus propios proyectiles.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/4/42/Monstruo_Splasher.png/revision/latest?cb=20200306064333&amp;path-prefix=es</Icono>
+        <Id>137</Id>
+        <Nombre>Splasher</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Un gran gusano similar a Larry Jr. que embiste al jugador cuando lo ve. Al morir genera gusanos y demás.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/c/ce/GrubEnemigo-x2.png/revision/latest?cb=20180720104116&amp;path-prefix=es</Icono>
+        <Id>138</Id>
+        <Nombre>Grub</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Un monstruo similar a una araña que está en la pared. Intenta alinearse con el jugador para disparar sus proyectiles hacia él. Le toma tiempo para poder hacerlo de nuevo.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/1/17/Wall_Creep.png/revision/latest?cb=20180719150818&amp;path-prefix=es</Icono>
+        <Id>139</Id>
+        <Nombre>Wall Creep</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Otro tipo de Wall Creep. Dispara una láser de sangre en vez de proyectiles normales.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/7/7f/Monstruo_Rage_Creep.png/revision/latest?cb=20200306064015&amp;path-prefix=es</Icono>
+        <Id>140</Id>
+        <Nombre>Rage Creep</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Otro tipo de Wall Creep. No persiguen al jugador siendo que son ciegos, pero aun así intentar disparar tres proyectiles aleatoriamente.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/a/af/Monstruo_Blind_Creep.png/revision/latest?cb=20200306060239&amp;path-prefix=es</Icono>
+        <Id>141</Id>
+        <Nombre>Blind Creep</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Gusanos con 2 cabezas. Cada cabeza dispara un proyectil aleatoriamente. No parecen interesados en el jugador.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/e/e6/Monstruo_Conjoined_Spitty.png/revision/latest?cb=20200306060606&amp;path-prefix=es</Icono>
+        <Id>142</Id>
+        <Nombre>Conjoined Spitty</Nombre>
+        <Vida>18</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Gusanos de tierra que salen para intentar disparar hacia el jugador. Ellos solamente disparan un proyectil cada vez que salen, solo para volver a ocultarse.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/8/82/Round_Worm.png/revision/latest?cb=20180719151128&amp;path-prefix=es</Icono>
+        <Id>143</Id>
+        <Nombre>Round Worm</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Gusanos azules que salen de la tierra para escupir una cantidad gigante de proyectiles hacia el techo. Estos proyectiles intentar caer en el camino del jugador y no directamente hacia él.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/6/64/Monstruo_Tube_Worm.png/revision/latest?cb=20200306064529&amp;path-prefix=es</Icono>
+        <Id>144</Id>
+        <Nombre>Tube Worm</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Monstruos similares a arañas que brincan por todo el lugar. Ellos puede generar dos proyectiles que giran alrededor de ellos o simplemente intentar saltar hacia el jugador.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/9/91/Ragling.png/revision/latest?cb=20180719150956&amp;path-prefix=es</Icono>
+        <Id>145</Id>
+        <Nombre>Ragling</Nombre>
+        <Vida>13</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Una versión caminante de los Red Hosts. Tiene un comportamiento similar, pero los Flesh Mobile Hosts sí pueden hacer daño al contacto.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/3/30/Monstruo_Flesh_Mobile_Host.png/revision/latest?cb=20200306062512&amp;path-prefix=es</Icono>
+        <Id>146</Id>
+        <Nombre>Flesh Mobile Host</Nombre>
+        <Vida>27</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones mejoradas de los Horfs. Ellos pueden disparar proyectiles psíquicas.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/8/80/Monstruo_Psychic_Horf.png/revision/latest?cb=20190723121737&amp;path-prefix=es</Icono>
+        <Id>147</Id>
+        <Nombre>Psychic Horf</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Una versión alternativa de lvl2 Fly. Al morir explotan en 6 proyectiles hacia todas las direcciones.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/0/08/Monstruo_Full_Fly.png/revision/latest?cb=20190723121202&amp;path-prefix=es</Icono>
+        <Id>148</Id>
+        <Nombre>Full Fly</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Otra versión de los lvl2 Spiders. Al morir genera una explosión.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/0/02/Ticking_Spider.png/revision/latest?cb=20180719151337&amp;path-prefix=es</Icono>
+        <Id>149</Id>
+        <Nombre>Ticking Spider</Nombre>
+        <Vida>13</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Demonios encadenados. Si logran liberarse obscurecen la pantalla. Ellos son muy veloces también cuando persiguen al jugador, fácilmente siendo más rápido que como normalmente lo sería el jugador.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/c/cd/Monstruo_Begotten.png/revision/latest?cb=20200306060202&amp;path-prefix=es</Icono>
+        <Id>150</Id>
+        <Nombre>Begotten</Nombre>
+        <Vida>60</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Demonios similares a los Frowning Gapers. Ellos tienen la habilidad temporal de hacerse invisibles para hacerlo más difícil.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/b/b1/Monstruo_Nulls.png/revision/latest?cb=20200306063742&amp;path-prefix=es</Icono>
+        <Id>151</Id>
+        <Nombre>Nulls</Nombre>
+        <Vida>30</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Tumors grises que pueden disparar proyectiles psíquicos en vez de proyectiles normales.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/9/90/Monstruo_Psy_Tumor.png/revision/latest?cb=20200306063942&amp;path-prefix=es</Icono>
+        <Id>152</Id>
+        <Nombre>Psy Tumor</Nombre>
+        <Vida>40</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Las cabezas flotantes de los Knights. Actúan de la misma forma, pero con la habilidad de flotar sobre todo.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/7/7f/Monstruo_Floating_Knight.png/revision/latest?cb=20200306062530&amp;path-prefix=es</Icono>
+        <Id>153</Id>
+        <Nombre>Floating Knight</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Gusanos que intentar atacar al jugador desde la tierra. Ellos salen y disparan 4 proyectiles en un patrón curvado.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/6/67/Monstruo_Night_Crawler.png/revision/latest?cb=20190723121250&amp;path-prefix=es</Icono>
+        <Id>154</Id>
+        <Nombre>Night Crawler</Nombre>
+        <Vida>35</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Moscas amarillas que se mueven se una manera similar al jugador, como si tratará de imitar al jugador para alcanzarlo más fácilmente.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/b/b8/Dart_Fly.png/revision/latest?cb=20190723112220&amp;path-prefix=es</Icono>
+        <Id>155</Id>
+        <Nombre>Dart Fly</Nombre>
+        <Vida>5</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Gordos con dos cabezas. Ellos intentar acercarse al jugador a una velocidad lenta. Tienen la habilidad de escupir un rastro verde que puede hacer daño al jugador. Al morir tiene la posibilidad de convertirse en un Fatty normal.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/7/72/Monstruo_Conjoined_Fatty.png/revision/latest?cb=20191022081723&amp;path-prefix=es</Icono>
+        <Id>156</Id>
+        <Nombre>Conjoined Fatty</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones azules de los Conjoined Fattys. Ellos puede disparar proyectiles psíquicos explosivos hacia el jugador.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/4/49/Blue_Conjoined_Fatty_Enemigo_x2.png/revision/latest?cb=20180926161510&amp;path-prefix=es</Icono>
+        <Id>157</Id>
+        <Nombre>Blue Conjoined Fatty</Nombre>
+        <Vida>60</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Murciélagos gordos y lentos. Ellos pueden disparar un proyectil si el jugador ha pasado por algún lado diagonal. Ellos tienen una cantidad de salud ridícula.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/6/64/Monstruo_Fat_Bat.png/revision/latest?cb=20200306062425&amp;path-prefix=es</Icono>
+        <Id>158</Id>
+        <Nombre>Fat Bat</Nombre>
+        <Vida>50</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Pequeños demonios fantasmas que puede disparar varias proyectiles a la vez y esquivar los del jugador.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/b/be/Monstruo_Imp.png/revision/latest?cb=20200306063049&amp;path-prefix=es</Icono>
+        <Id>159</Id>
+        <Nombre>Imp</Nombre>
+        <Vida>25</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Pequeños fantamas que se mueven en un patrón similar al jugador. Son capaces de disparar proyectiles hacia el jugador, haciendo una pausa al hacerlo.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/0/0f/Lil%27_Haunt.png/revision/latest?cb=20180719151752&amp;path-prefix=es</Icono>
+        <Id>160</Id>
+        <Nombre>Lil' Haunt</Nombre>
+        <Vida>25</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Gusanos gordos que generan ondas de tierra al salir de la tierra. Ellos disparan proyectiles explosivos a una dirección aleatoria.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/1/19/Roundy.png/revision/latest?cb=20180719151936&amp;path-prefix=es</Icono>
+        <Id>161</Id>
+        <Nombre>Roundy</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Esqueletos negros que lanzan huesos si el jugador se encuentra en su campo de visión. Ellos explotan al morir.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/5/58/Black_Bony_Enemigo.png/revision/latest?cb=20181208121801&amp;path-prefix=es</Icono>
+        <Id>162</Id>
+        <Nombre>Black Bony</Nombre>
+        <Vida>8</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Globins que generan una cantidad grande de Spiders al ser golpeado. Al morir puede aparecer su cabeza y su cuerpo.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/a/ab/Monstruo_Black_Globin.png/revision/latest?cb=20200306060214&amp;path-prefix=es</Icono>
+        <Id>163</Id>
+        <Nombre>Black Globin</Nombre>
+        <Vida>33</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>La cabeza de los Black Globins. Se comporta similar a los Brains, dejando un rastro rojo, pero no sigue ningún tipo de patrón, teniendo un movimiento libre.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/f/fc/Monstruo_Black_Goblin_Head.png/revision/latest?cb=20190723121033&amp;path-prefix=es</Icono>
+        <Id>164</Id>
+        <Nombre>Black Globin's Head</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>El cuerpo de los Black Globins. Funciona similar a un Gusher, pero en vez de disparar proyectiles, genera Spiders.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/d/dd/Monstruo_Black_Goblin_Body.png/revision/latest?cb=20190723121016&amp;path-prefix=es</Icono>
+        <Id>165</Id>
+        <Nombre>Black Globin's Body</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Moscas amarillas que aparecen en grupos grandes. No tienen nada más de especial además de eso.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/b/b0/Swarm_Fly.png/revision/latest?cb=20191030110323&amp;path-prefix=es</Icono>
+        <Id>166</Id>
+        <Nombre>Swarm</Nombre>
+        <Vida>5</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Un Clotty gigante. Ellos puede disparar 6 proyectiles en todas las direcciones, o generar un Clotty normal. Al morir se convierten en 2 Clotty.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/e/eb/Monstruo_Mega_Clotty.png/revision/latest/scale-to-width-down/85?cb=20200306063449&amp;path-prefix=es</Icono>
+        <Id>167</Id>
+        <Nombre>Mega Clotty</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones mejoradas de los Knight. Ellos son bastante más rápidos y dejan un rastro rojo que le permite que su espalda esté más segura.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/d/df/Monstruo_Bone_Knight.png/revision/latest?cb=20200306060346&amp;path-prefix=es</Icono>
+        <Id>168</Id>
+        <Nombre>Bone Knight</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Gapers con un solo ojo. Similares a los Gapers normales, los Cyclopias dejan un pequeño rastro rojo y pueden disparar ocasionalmente al jugador.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/b/be/Cyclopia.png/revision/latest?cb=20180719152434&amp;path-prefix=es</Icono>
+        <Id>169</Id>
+        <Nombre>Cyclopia</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones rojas de los Wizoobs. Ellos disparan láseres de sangre en vez de proyectiles espectrales.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/7/70/Monstruo_Red_Ghost.png/revision/latest?cb=20200306064040&amp;path-prefix=es</Icono>
+        <Id>170</Id>
+        <Nombre>Red Ghost</Nombre>
+        <Vida>25</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones rojas de Death's Heads. Ellos son mortales, pero no se necesita matarlos para completar la habitación, muriendo aun así si se mata a los otros monstruos. Al morir dispara 6 proyectiles en todas las direcciones.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/1/19/Monstruo_Flesh_Death%27s_Head.png/revision/latest?cb=20200306062457&amp;path-prefix=es</Icono>
+        <Id>171</Id>
+        <Nombre>Flesh Death's Head</Nombre>
+        <Vida>50</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>La mano muerta de Mom. No puede agarrar al jugador, pero en vez genera ondas de tierra al tocar la tierra. Genera Spiders al morir.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/1/1b/Monstruo_Mom%27s_Dead_Hand.png/revision/latest/scale-to-width-down/80?cb=20200306063549&amp;path-prefix=es</Icono>
+        <Id>172</Id>
+        <Nombre>Mom's Dead Hand</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Un versión pequeña de The Duke of Flies. Ellos generan Dart Fly ocasionalmente.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/b/b5/Monstruo_Dukie.png/revision/latest?cb=20200306062341&amp;path-prefix=es</Icono>
+        <Id>173</Id>
+        <Nombre>Dukie</Nombre>
+        <Vida>25</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Un monstruo de tierra, similar a los Round Worms. Si el jugador está en su campo de visón cuando salen, ellos generan una Dart Fly. Muy raramente ellos disparan en vez de generar una mosca.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/1/17/Ulcer.png/revision/latest?cb=20180719152602&amp;path-prefix=es</Icono>
+        <Id>174</Id>
+        <Nombre>Ulcer</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Un bulto de carne viviente. Puede escupir rastro rojo o proyectiles hacia el jugador. Al morir se convierte en un Host.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/a/a9/Monstruo_Meatball.png/revision/latest?cb=20200306063430&amp;path-prefix=es</Icono>
+        <Id>175</Id>
+        <Nombre>Meatball</Nombre>
+        <Vida>15</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Minas de popo que al explotar generan choclos gigantes que funcionan como proyectiles. Pueden envenenar monstruos al explotar también.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/d/d5/Monstruo_Corn_Mine.png/revision/latest?cb=20200306060636&amp;path-prefix=es</Icono>
+        <Id>176</Id>
+        <Nombre>Corn Mine</Nombre>
+        <Vida>8</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Moscas azules que tiene un escudo especial que las hace más resistente. El escudo depende del daño del jugador. Ellos son generados por Hush.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/2/22/Monstruo_Hush_Fly.png/revision/latest?cb=20200306063028&amp;path-prefix=es</Icono>
+        <Id>177</Id>
+        <Nombre>Hush Fly</Nombre>
+        <Vida>10</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Gapers azules que tiene un escudo similar a los Hush Flys. Ellos son generados por Hush.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/4/4e/Monstruo_Blue_Gaper.png/revision/latest?cb=20190723121113&amp;path-prefix=es</Icono>
+        <Id>178</Id>
+        <Nombre>Blue Gaper</Nombre>
+        <Vida>16</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Boils de color azul. Ellos se hacen más grandes y pequeños a voluntad. Puede disparar 3 proyectiles de larga distancia. Son generados por Hush.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/a/ac/Monstruo_Blue_Boil.png/revision/latest?cb=20200306060322&amp;path-prefix=es</Icono>
+        <Id>179</Id>
+        <Nombre>Blue Boil</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Gapers con monedas como ojos. Excepto por un poco menos de salud, no hay diferencia con los regulares.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/b/bb/Monstruo_Greed_Gaper.png/revision/latest?cb=20191022082316&amp;path-prefix=es</Icono>
+        <Id>180</Id>
+        <Nombre>Greed Gaper</Nombre>
+        <Vida>9</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Un hongo con cara. Ellos se pueden ocultar, reduciendo todo el daño recibido. Puede disparar 4 proyectiles en direcciones seleccionadas, pero hacerlo lo deja más vulnerable, solo para volver a ocultarse y repetir el proceso.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/6/63/Monstruo_Mushroom.png/revision/latest?cb=20200306063711&amp;path-prefix=es</Icono>
+        <Id>181</Id>
+        <Nombre>Mushroom</Nombre>
+        <Vida>23</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Cerebros verdes. Se comportan igual que los Brains, pero los Poison Minds se mueven solamente en diagonales.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/9/95/Monstruo_Poison_Mind.png/revision/latest?cb=20200306063859&amp;path-prefix=es</Icono>
+        <Id>182</Id>
+        <Nombre>Poison Mind</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Fattys de piedra. Ellos son inmortales y solamente intentar bloquear los ataques del jugador para proteger los otros monstruos. Mueren al terminar la habitación matando a los otros.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/5/53/Stoney.png/revision/latest?cb=20180719152855&amp;path-prefix=es</Icono>
+        <Id>183</Id>
+        <Nombre>Stoney</Nombre>
+        <Vida>9999</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Un monstruo araña que es capaz de generar esferas oscuras que puede dañar al jugador. Al morir dejan un Sack.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/9/95/Monstruo_Blister.png/revision/latest?cb=20200306060255&amp;path-prefix=es</Icono>
+        <Id>184</Id>
+        <Nombre>Blister</Nombre>
+        <Vida>16</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Otra versión de Wall Creep. No disparan proyectiles, y en vez extiende su lengua y dejan un rastro rojo.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/7/7b/Monstruo_The_Thing.png/revision/latest?cb=20200306064511&amp;path-prefix=es</Icono>
+        <Id>185</Id>
+        <Nombre>The Thing</Nombre>
+        <Vida>15</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones pequeñas de Monstro. Ellos brincan por la habitación y pueden escupir pequeños proyectiles hacia el jugador.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/1/17/Ministro.png/revision/latest?cb=20180719153042&amp;path-prefix=es</Icono>
+        <Id>186</Id>
+        <Nombre>Ministro</Nombre>
+        <Vida>9</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Portales púrpuras que generan monstruos. Los monstruos que pueden generar dependen del piso donde estén. Generar monstruos pueden reducirle la salud a los portales.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/9/9d/Portal.png/revision/latest?cb=20180719150041&amp;path-prefix=es</Icono>
+        <Id>187</Id>
+        <Nombre>Portal</Nombre>
+        <Vida>9</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Monstruos hechos de alquitrán. Ellos solamnete puede aparecer donde haya rastro de alquitrán. Puede escupir proyectiles negros que generan más alquitrán.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/a/a4/Monstruo_Tar_Boy.png/revision/latest?cb=20200306064454&amp;path-prefix=es</Icono>
+        <Id>188</Id>
+        <Nombre>Tar Boy</Nombre>
+        <Vida>55</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Gusanos cubierto de una capa de carne. Ellos flotan alrededor del jugador, intentando tocarlo o disparar un proyectil. Al morir el gusano sale disparado hacia el jugador para intentar hacer daño por última vez.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/c/ce/Monstruo_Fistuloid.png/revision/latest?cb=20200306062439&amp;path-prefix=es</Icono>
+        <Id>189</Id>
+        <Nombre>Fistuloid</Nombre>
+        <Vida>30</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Versiones de alquitrán de Boil. Ellos solamente generan más rastro negro por todo su rango.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/d/db/Monstruo_Gush.png/revision/latest?cb=20200306062801&amp;path-prefix=es</Icono>
+        <Id>190</Id>
+        <Nombre>Gush</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Monstruos similares a los Mulligans. Ellos intentan atacar al jugador. Al dañarlos, partes de su cuerpo salen.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/8/81/Monstruo_Leper.png/revision/latest?cb=20200306063255&amp;path-prefix=es</Icono>
+        <Id>191</Id>
+        <Nombre>Leper</Nombre>
+        <Vida>60</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Las partes de un Leper. Intentar acercarse al jugador y al morir disparar un proyectil directo a él.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/e/ea/Monstruo_Leper_Flesh.png/revision/latest?cb=20200306063239&amp;path-prefix=es</Icono>
+        <Id>192</Id>
+        <Nombre>Leper Flesh</Nombre>
+        <Vida>5</Vida>
+    </Monstruo>
+    <Monstruo>
+        <Descripcion>Cabezas azules que salen de los pozos llenos de agua. Ellos extienden sus cuellos para alcanzar al jugador. Al morir disparar 6 proyectiles.</Descripcion>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/a/a6/Monstruo_Mr_Mine.png/revision/latest?cb=20200306063638&amp;path-prefix=es</Icono>
+        <Id>193</Id>
+        <Nombre>Mr. Mine</Nombre>
+        <Vida>20</Vida>
+    </Monstruo>
+    <Vida>0</Vida>
+</Enemigos>

@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Personajes>
+    <Personaje>
+        <Cadencia>+0</Cadencia>
+        <Daño>3.5 (x 1.00)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/b/b5/Arte_de_personaje_Isaac.png/revision/latest?cb=20210405155819&amp;path-prefix=es</Icono>
+        <Id>1</Id>
+        <Nombre>Isaac</Nombre>
+        <Rango>6.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1.0</Velocidad>
+        <Vida>3</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>+0</Cadencia>
+        <Daño>3.5 (x 1.00)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/3/30/Arte_de_personaje_Magdalena.png/revision/latest?cb=20210405155855&amp;path-prefix=es</Icono>
+        <Id>2</Id>
+        <Nombre>Magdalena</Nombre>
+        <Rango>6.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>0.85</Velocidad>
+        <Vida>4</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>+0</Cadencia>
+        <Daño>3.5 (x 1.20)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/a/ab/Arte_de_personaje_Cain.png/revision/latest?cb=20210405155909&amp;path-prefix=es</Icono>
+        <Id>3</Id>
+        <Nombre>Cain</Nombre>
+        <Rango>4.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1.3</Velocidad>
+        <Vida>2</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>+0</Cadencia>
+        <Daño>3.5 (x 1.35)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/c/ca/Arte_de_personaje_Judas.png/revision/latest?cb=20210405155922&amp;path-prefix=es</Icono>
+        <Id>4</Id>
+        <Nombre>Judas</Nombre>
+        <Rango>6.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1.0</Velocidad>
+        <Vida>1</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>+0</Cadencia>
+        <Daño>3.5 (x 1.05)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/d/da/Arte_de_personaje_%3F%3F%3F.png/revision/latest?cb=20210405155942&amp;path-prefix=es</Icono>
+        <Id>5</Id>
+        <Nombre>???</Nombre>
+        <Rango>6.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1.1</Velocidad>
+        <Vida>3</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>+0</Cadencia>
+        <Daño>3.5 (x 0.75)[1]</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/5/59/Arte_de_personaje_Eve.png/revision/latest?cb=20210405160002&amp;path-prefix=es</Icono>
+        <Id>6</Id>
+        <Nombre>Eve</Nombre>
+        <Rango>6.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1.23</Velocidad>
+        <Vida>2</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>-0.05</Cadencia>
+        <Daño>3.5 (x 1.00)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/1/1e/Arte_de_personaje_Samson.png/revision/latest?cb=20210405160013&amp;path-prefix=es</Icono>
+        <Id>7</Id>
+        <Nombre>Samson</Nombre>
+        <Rango>5.0</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1.31</Vel_Proyectil>
+        <Velocidad>1.1</Velocidad>
+        <Vida>3</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>+0.5 (x 0.3)</Cadencia>
+        <Daño>3.5 (x 1.50)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/2/23/Arte_de_personaje_Azazel.png/revision/latest?cb=20210604224712&amp;path-prefix=es</Icono>
+        <Id>8</Id>
+        <Nombre>Azazel</Nombre>
+        <Rango>4.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1.25</Velocidad>
+        <Vida>3</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>+0</Cadencia>
+        <Daño>3.5 (x 1.00)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/4/49/Arte_de_personaje_Lazarus.png/revision/latest?cb=20210405160042&amp;path-prefix=es</Icono>
+        <Id>9</Id>
+        <Nombre>Lazarus</Nombre>
+        <Rango>4.5</Rango>
+        <Suerte>-1</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1.0</Velocidad>
+        <Vida>3</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>±0.75</Cadencia>
+        <Daño>3.5 ± 1.0 (x 1.00)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/2/20/Arte_de_personaje_Eden.png/revision/latest?cb=20210405160105&amp;path-prefix=es</Icono>
+        <Id>10</Id>
+        <Nombre>Eden</Nombre>
+        <Rango>6.5 ± ?</Rango>
+        <Suerte>0 ± 1</Suerte>
+        <Vel_Proyectil>1 ± 0.25</Vel_Proyectil>
+        <Velocidad>1.0 ± 0.15</Velocidad>
+        <Vida>3</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>+0</Cadencia>
+        <Daño>3.5 (x 1.00)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/a/a8/Arte_de_personaje_The_Lost.png/revision/latest?cb=20210405160121&amp;path-prefix=es</Icono>
+        <Id>11</Id>
+        <Nombre>The Lost</Nombre>
+        <Rango>6.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1.0</Velocidad>
+        <Vida>0</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>+0</Cadencia>
+        <Daño>3.5 (x 1.00)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/5/5d/Arte_de_personaje_Lilith.png/revision/latest?cb=20210405160132&amp;path-prefix=es</Icono>
+        <Id>12</Id>
+        <Nombre>Lilith</Nombre>
+        <Rango>6.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1.0</Velocidad>
+        <Vida>3</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>-2</Cadencia>
+        <Daño>3.5 (x 1.20)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/4/43/Arte_de_personaje_Keeper.png/revision/latest?cb=20210405160146&amp;path-prefix=es</Icono>
+        <Id>13</Id>
+        <Nombre>Keeper</Nombre>
+        <Rango>6.5</Rango>
+        <Suerte>-2</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>0.85</Velocidad>
+        <Vida>3</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>+0</Cadencia>
+        <Daño>3.5 (x 1.00)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/a/a8/Arte_de_personaje_Apollyon.png/revision/latest?cb=20210405160157&amp;path-prefix=es</Icono>
+        <Id>14</Id>
+        <Nombre>Apollyon</Nombre>
+        <Rango>6.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1.0</Velocidad>
+        <Vida>2</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>+0 (x 0.5)</Cadencia>
+        <Daño>3.5 (x 1.50)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/6/61/Arte_de_personaje_The_Forgotten.png/revision/latest?cb=20210405160213&amp;path-prefix=es</Icono>
+        <Id>15</Id>
+        <Nombre>The Forgotten</Nombre>
+        <Rango>6.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1.0</Velocidad>
+        <Vida>3</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>+0</Cadencia>
+        <Daño>3.5 (x 1.00)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/b/b5/Arte_de_personaje_Bethany.png/revision/latest?cb=20210402153303&amp;path-prefix=es</Icono>
+        <Id>16</Id>
+        <Nombre>Bethany</Nombre>
+        <Rango>6.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1.0</Velocidad>
+        <Vida>3</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>3</Cadencia>
+        <Daño>2.75 (x 1.00)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/1/18/Arte_de_personaje_Jacob.png/revision/latest?cb=20210403011116&amp;path-prefix=es</Icono>
+        <Id>17</Id>
+        <Nombre>Jacob</Nombre>
+        <Rango>5</Rango>
+        <Suerte>1</Suerte>
+        <Vel_Proyectil>1.15</Vel_Proyectil>
+        <Velocidad>1</Velocidad>
+        <Vida>5</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>+0</Cadencia>
+        <Daño>3.5 (x 2.00)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/4/4a/Arte_de_personaje_Dark_Judas.png/revision/latest?cb=20210414160507&amp;path-prefix=es</Icono>
+        <Id>18</Id>
+        <Nombre>Dark Judas</Nombre>
+        <Rango>6.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1.1</Velocidad>
+        <Vida>2</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>+0</Cadencia>
+        <Daño>3.5 (x 1.20)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/0/08/Arte_de_personaje_Lazarus_Risen.png/revision/latest?cb=20210414160457&amp;path-prefix=es</Icono>
+        <Id>19</Id>
+        <Nombre>Lazarus Risen</Nombre>
+        <Rango>6.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1.25</Velocidad>
+        <Vida>1</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>+0</Cadencia>
+        <Daño>3.5 (x 1.00)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/1/1d/Arte_de_personaje_Tainted_Isaac.png/revision/latest?cb=20210403181445&amp;path-prefix=es</Icono>
+        <Id>20</Id>
+        <Nombre>Tainted Isaac</Nombre>
+        <Rango>6.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1.0</Velocidad>
+        <Vida>3</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>+0</Cadencia>
+        <Daño>3.5 (x 1.00)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/5/51/Arte_de_personaje_Tainted_Magdalena.png/revision/latest?cb=20210403181500&amp;path-prefix=es</Icono>
+        <Id>21</Id>
+        <Nombre>Tainted Magdalena</Nombre>
+        <Rango>6.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1.00</Velocidad>
+        <Vida>4</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>+0</Cadencia>
+        <Daño>3.5 (x 1.20)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/8/85/Arte_de_personaje_Tainted_Cain.png/revision/latest?cb=20210403181516&amp;path-prefix=es</Icono>
+        <Id>22</Id>
+        <Nombre>Tainted Cain</Nombre>
+        <Rango>6.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1.3</Velocidad>
+        <Vida>2</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>+0</Cadencia>
+        <Daño>3.5 (x 1.00)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/a/a2/Arte_de_personaje_Tainted_Judas.png/revision/latest?cb=20210403181542&amp;path-prefix=es</Icono>
+        <Id>23</Id>
+        <Nombre>Tainted Judas</Nombre>
+        <Rango>4.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1.23</Velocidad>
+        <Vida>2</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>2.04</Cadencia>
+        <Daño>3.5 (x 1.00)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/e/e8/Arte_de_personaje_Tainted_%3F%3F%3F.png/revision/latest?cb=20210403181558&amp;path-prefix=es</Icono>
+        <Id>24</Id>
+        <Nombre>Tainted ???</Nombre>
+        <Rango>6.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>0.9</Velocidad>
+        <Vida>3</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>1.20</Cadencia>
+        <Daño>3.5 (x 1.20)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/f/fa/Arte_de_personaje_Tainted_Eve.png/revision/latest?cb=20210403181613&amp;path-prefix=es</Icono>
+        <Id>25</Id>
+        <Nombre>Tainted Eve</Nombre>
+        <Rango>6.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1.0</Velocidad>
+        <Vida>2</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>2.50</Cadencia>
+        <Daño>3.5 (x 1.00)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/7/7e/Arte_de_personaje_Tainted_Samson.png/revision/latest?cb=20210403181625&amp;path-prefix=es</Icono>
+        <Id>26</Id>
+        <Nombre>Tainted Samson</Nombre>
+        <Rango>5.0</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1</Velocidad>
+        <Vida>3</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>0.91</Cadencia>
+        <Daño>3.5 (x 1.50)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/f/f0/Arte_de_personaje_Tainted_Azazel.png/revision/latest?cb=20210403181645&amp;path-prefix=es</Icono>
+        <Id>27</Id>
+        <Nombre>Tainted Azazel</Nombre>
+        <Rango>6.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1.25</Velocidad>
+        <Vida>3</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>+0</Cadencia>
+        <Daño>3.5 (x 1.00)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/2/28/Arte_de_personaje_Tainted_Lazarus.png/revision/latest?cb=20210403181719&amp;path-prefix=es</Icono>
+        <Id>28</Id>
+        <Nombre>Tainted Lazarus</Nombre>
+        <Rango>4.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1.0</Velocidad>
+        <Vida>5</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>±0.75</Cadencia>
+        <Daño>3.5 ± 1.0 (x 1.00)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/4/4e/Arte_de_personaje_Tainted_Eden.png/revision/latest/scale-to-width-down/48?cb=20210403181734&amp;path-prefix=es</Icono>
+        <Id>29</Id>
+        <Nombre>Tainted Eden</Nombre>
+        <Rango>6.5 ± ?</Rango>
+        <Suerte>0 ± 1</Suerte>
+        <Vel_Proyectil>1 ± 0.25</Vel_Proyectil>
+        <Velocidad>1.0 ± 0.15</Velocidad>
+        <Vida>3</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>+0</Cadencia>
+        <Daño>3.5 (x 1.30)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/a/ae/Arte_de_personaje_Tainted_Lost.png/revision/latest?cb=20210403181745&amp;path-prefix=es</Icono>
+        <Id>30</Id>
+        <Nombre>Tainted Lost</Nombre>
+        <Rango>6.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1.0</Velocidad>
+        <Vida>0</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>+0</Cadencia>
+        <Daño>3.5 (x 1.00)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/1/14/Arte_de_personaje_Tainted_Lilith.png/revision/latest?cb=20210403181756&amp;path-prefix=es</Icono>
+        <Id>31</Id>
+        <Nombre>Tainted Lilith</Nombre>
+        <Rango>6.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>0.85</Velocidad>
+        <Vida>3</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>0.99</Cadencia>
+        <Daño>3.5 (x 1.00)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/b/b7/Arte_de_personaje_Tainted_Keeper.png/revision/latest?cb=20210403181808&amp;path-prefix=es</Icono>
+        <Id>32</Id>
+        <Nombre>Tainted Keeper</Nombre>
+        <Rango>6.5</Rango>
+        <Suerte>-2</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1</Velocidad>
+        <Vida>2</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>1.82</Cadencia>
+        <Daño>3.5 (x 1.00)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/a/af/Arte_de_personaje_Tainted_Apollyon.png/revision/latest?cb=20210403181818&amp;path-prefix=es</Icono>
+        <Id>33</Id>
+        <Nombre>Tainted Apollyon</Nombre>
+        <Rango>6.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1.0</Velocidad>
+        <Vida>2</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>1.36</Cadencia>
+        <Daño>3.5 (x 1.50)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/4/42/Arte_de_personaje_Tainted_Forgotten.png/revision/latest?cb=20210403181834&amp;path-prefix=es</Icono>
+        <Id>34</Id>
+        <Nombre>Tainted Forgotten</Nombre>
+        <Rango>6.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>—</Velocidad>
+        <Vida>3</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>+0</Cadencia>
+        <Daño>3.5 (x 1.00)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/6/6f/Arte_de_personaje_Tainted_Bethany.png/revision/latest?cb=20210403181914&amp;path-prefix=es</Icono>
+        <Id>35</Id>
+        <Nombre>Tainted Bethany</Nombre>
+        <Rango>6.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1.0</Velocidad>
+        <Vida>3</Vida>
+    </Personaje>
+    <Personaje>
+        <Cadencia>3</Cadencia>
+        <Daño>2.75 (x 1.00)</Daño>
+        <Icono>https://static.wikia.nocookie.net/bindingofisaac/images/b/bb/Arte_de_personaje_Tainted_Jacob.png/revision/latest?cb=20210403181930&amp;path-prefix=es</Icono>
+        <Id>36</Id>
+        <Nombre>Tainted Jacob</Nombre>
+        <Rango>6.5</Rango>
+        <Suerte>0</Suerte>
+        <Vel_Proyectil>1</Vel_Proyectil>
+        <Velocidad>1</Velocidad>
+        <Vida>3</Vida>
+    </Personaje>
+</Personajes>

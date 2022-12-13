@@ -5,11 +5,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 import java.util.concurrent.atomic.AtomicInteger;
 
+@XmlRootElement(name="Personajes")
 public class Personajes {
 
     List<Personaje> lista = new ArrayList<>();
@@ -22,7 +24,7 @@ public class Personajes {
             if (l.contains("Personajes")) {
                 driver.navigate().to(l);
                 wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.className("wikitable"))));
-                for(int i=0, j=0; i<7500; j=i, i+=30){
+                for(int i=0, j=0; i<7500; j=i, i+=20){
                     ((JavascriptExecutor) driver).executeScript("window.scrollTo("+j+", "+i+")");
                 }
                 List<WebElement> tablas = driver.findElements(By.className("wikitable"));
@@ -40,5 +42,14 @@ public class Personajes {
                 });
             }
         });
+    }
+
+    public List<Personaje> getLista() {
+        return lista;
+    }
+
+    @XmlElement(name="Personaje")
+    public void setLista(List<Personaje> lista) {
+        this.lista = lista;
     }
 }

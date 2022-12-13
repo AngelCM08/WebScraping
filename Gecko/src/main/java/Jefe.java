@@ -1,9 +1,8 @@
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-public class Jefe extends Enemigo{
+public class Jefe extends Enemigos {
     private String ataques;
 
     public Jefe(int id, List<WebElement> atributos) {

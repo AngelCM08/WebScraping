@@ -5,12 +5,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
+@XmlRootElement(name="Objetos")
 public class Objetos {
-
     List<Objeto> lista = new ArrayList<>();
 
     public void getObjetos(WebDriver driver, WebDriverWait wait, List<String> goodLinks){
@@ -38,5 +40,14 @@ public class Objetos {
                 });
             }
         });
+    }
+
+    public List<Objeto> getLista() {
+        return lista;
+    }
+
+    @XmlElement(name="Objeto")
+    public void setLista(List<Objeto> lista) {
+        this.lista = lista;
     }
 }

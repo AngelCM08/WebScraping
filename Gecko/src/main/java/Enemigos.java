@@ -2,25 +2,29 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.internal.WebElementToJsonConverter;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class Enemigo {
+@XmlRootElement(name="Enemigos")
+public class Enemigos {
     int id;
     String icono;
     String nombre;
     int vida;
     String descripcion;
 
-    static List<Monstruo> monstruos = new ArrayList<>();
-    static List<Jefe> jefes = new ArrayList<>();
+    List<Monstruo> monstruos = new ArrayList<>();
+    List<Jefe> jefes = new ArrayList<>();
 
-    public Enemigo(int id, String icono, String nombre, int vida, String descripcion) {
+    public Enemigos(){}
+
+    public Enemigos(int id, String icono, String nombre, int vida, String descripcion) {
         this.id = id;
         this.icono = icono;
         this.nombre = nombre;
@@ -28,7 +32,7 @@ public class Enemigo {
         this.descripcion = descripcion;
     }
 
-    static public void getMonstruos(WebDriver driver, WebDriverWait wait, List<String> goodLinks){
+    public void getMonstruos(WebDriver driver, WebDriverWait wait, List<String> goodLinks){
         List<WebElement> aux = new ArrayList<>();
         AtomicInteger id = new AtomicInteger(1);
 
@@ -54,7 +58,7 @@ public class Enemigo {
         });
     }
 
-    static public void getJefes(WebDriver driver, WebDriverWait wait, List<String> goodLinks){
+    /*public void getJefes(WebDriver driver, WebDriverWait wait, List<String> goodLinks){
         List<String> linksJefes = new ArrayList<>();
         List<WebElement> aux = new ArrayList<>();
         AtomicInteger id = new AtomicInteger(1);
@@ -98,9 +102,9 @@ public class Enemigo {
         }catch (org.openqa.selenium.NoSuchElementException e){
             return null;
         }
-    }
+    }*/
 
-    static public void getCampeones(WebDriver driver, WebDriverWait wait, List<String> goodLinks){
+    /*public void getCampeones(WebDriver driver, WebDriverWait wait, List<String> goodLinks){
         List<WebElement> aux = new ArrayList<>();
         AtomicInteger id = new AtomicInteger(1);
 
@@ -120,38 +124,39 @@ public class Enemigo {
                 aux.clear();
             });
         });
+    }*/
+
+    public List<Monstruo> getMonstruos() {
+        return monstruos;
     }
 
-    //Getters and Setters
+    @XmlElement(name="Monstruo")
+    public void setMonstruos(List<Monstruo> monstruos) {
+        this.monstruos = monstruos;
+    }
+
+    @XmlElement(name="Id")
+    public int getId() {
+        return id;
+    }
+
+    @XmlElement(name="Icono")
     public String getIcono() {
         return icono;
     }
 
-    public void setIcono(String icono) {
-        this.icono = icono;
-    }
-
+    @XmlElement(name="Nombre")
     public String getNombre() {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
+    @XmlElement(name="Vida")
     public int getVida() {
         return vida;
     }
 
-    public void setVida(int vida) {
-        this.vida = vida;
-    }
-
+    @XmlElement(name="Descripcion")
     public String getDescripcion() {
         return descripcion;
-    }
-
-    public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
     }
 }

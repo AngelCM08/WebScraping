@@ -1,4 +1,4 @@
-public class Campeon extends Enemigo{
+public class Campeon extends Enemigos {
     private String color;
     private Objeto recompensa;
 

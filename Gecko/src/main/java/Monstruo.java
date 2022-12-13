@@ -1,9 +1,11 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
+import javax.xml.bind.annotation.XmlRootElement;
 import java.util.List;
 
-public class Monstruo extends Enemigo{
+public class Monstruo extends Enemigos {
+    public Monstruo(){}
     public Monstruo(int id, List<WebElement> atributos) {
         super(id,
                 atributos.get(0).findElement(By.tagName("img")).getAttribute("src"), //icono

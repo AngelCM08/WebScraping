@@ -1,29 +1,39 @@
-
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
-import javax.xml.bind.PropertyException;
+import java.io.File;
 
 public class GenerateXML {
-    public static void generateXML() {
-
+    public static void generatePersonajesXML(Personajes personajes, String path) {
         try {
-            Libro libro= new Libro("Odisea 2001",400);
-            JAXBContext contexto = JAXBContext.newInstance(
-                    libro.getClass() );
-            Marshaller marshaller = contexto.createMarshaller();
-            marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT,
-                    Boolean.TRUE);
-            marshaller.marshal(libro, System.out);
-        } catch (PropertyException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+            JAXBContext context = JAXBContext.newInstance(Personajes.class);
+            Marshaller marshaller = context.createMarshaller();
+            marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
+            marshaller.marshal(personajes, new File(path));
         } catch (JAXBException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
-
     }
 
-}
+    public static void generateObjetosXML(Objetos objetos, String path) {
+        try {
+            JAXBContext context = JAXBContext.newInstance(Objetos.class);
+            Marshaller marshaller = context.createMarshaller();
+            marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
+            marshaller.marshal(objetos, new File(path));
+        } catch (JAXBException e) {
+            e.printStackTrace();
+        }
+    }
 
+    public static void generateMonstruosXML(Enemigos monstruos, String path) {
+        try {
+            JAXBContext context = JAXBContext.newInstance(Enemigos.class);
+            Marshaller marshaller = context.createMarshaller();
+            marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
+            marshaller.marshal(monstruos, new File(path));
+        } catch (JAXBException e) {
+            e.printStackTrace();
+        }
+    }
+}
