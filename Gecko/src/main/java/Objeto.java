@@ -16,6 +16,7 @@ public class Objeto {
     private String icono;
     private String nombre;
     private String descripcion;
+    //private enum tipo { RECOLECTABLE,TRINKET,CARTA,PILDORA,PASIVO,ACTIVO }
 
     /**
      * Constrctor simple de la Clase necesario para el formateado a XML.
