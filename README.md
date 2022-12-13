@@ -17,7 +17,7 @@ a funcionar."
 ## Tecnología utilizada
 
 - [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/)
-- [OpenCSV](https://opencsv.sourceforge.net/#developer_documentation)
+- [OpenCSV](https://www.baeldung.com/opencsv)
 - [JAXB](https://javaee.github.io/jaxb-v2/)
 
 ## Metodología empleada
