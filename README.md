@@ -9,7 +9,7 @@ presente en el proyecto.
 
 ## Ejecución
 Descarga el proyecto, ábrelo dentro de tu IDE de Java (Maven) favorito y 
-ejecútalo!
+ejecuta la clase Main!
 
 NOTA: "El driver funciona a través de Firefox, si es la versión Snap NO va 
 a funcionar."
